@@ -18,6 +18,9 @@
 		g {
 			cursor: pointer;
 		}
+		text {
+			pointer-events: none;
+		}
 		.filters {
 			position: fixed;
 			left:0px;
@@ -53,6 +56,12 @@
 			padding-left: 10px;
 			font-size: 12px;
 			color: #888;
+		}
+		.filter_count.hidden {
+			display: none;
+		}
+		.filter.disabled {
+			color: #666;
 		}
 		.tooltip {	
 		    position: absolute;			
