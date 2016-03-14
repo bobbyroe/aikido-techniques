@@ -1,7 +1,6 @@
 var width = window.innerWidth - 200;
 var height = window.innerHeight;
 var radius = Math.min(width, height) / 2;
-var sort_string = 'Name';
 var fill_hue = d3.scale.category20c();
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -23,6 +22,16 @@ var all_filters = {}; // all possible filters
 var all_names = []; // needed for total count
 var currently_selected_filter_category = '';
 
+
+var blackground = d3.select("body").append("div")
+    .attr("class", "blackground hidden")
+    .attr("style", `width:${width}px; height: ${height}px`);
+
+var details_div = d3.select("body").append("div")
+    .attr("class", "details hidden")
+    .attr("style", `width:${width - 400}px; height: ${height - 400}px`);
+    
+
 // Define the div for the tooltip
 var div = d3.select("body").append("div")   
     .attr("class", "tooltip")               
@@ -34,9 +43,8 @@ function init () {
         if (error) return console.warn(error);
         
         // combine all techniques to a single array
-        var all_techniques = Object.keys(data.waza);
-        all_techniques.forEach( function (a) {
-            waza_data = waza_data.concat(data.waza[a]);
+        data.aikido.forEach( function (a) {
+            waza_data = waza_data.concat(a.waza);
         });
 
         deriveFilterData(waza_data);
@@ -50,25 +58,25 @@ function init () {
             .data(waza_data)
             .enter().append('g')
             .attr("transform", function (d, i) { 
-                return "translate( " + (Math.random() * width) + "," + (Math.random() * height) + ")";
+                return `translate( ${(Math.random() * width)},${(Math.random() * height)})`;
             })
             .on("mouseover", handleMouseOver)                  
             .on("mouseout", handleMouseOut)
-            .on("dblclick", function () { console.log(this);})
+            .on("dblclick", handleDblClick)
             .call(force.drag);
 
         var circle = gs.append('circle')
             .attr('r', function (d) { return radius; })
-            // .attr('fill', function (d) { return fillHueAttack(d.attack_type); })
-            // .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
-            .attr('fill', function (d) { return fillHueName(d.name); })
-            .attr("stroke", function (d) { return fillHueName(d.name); })
+            .attr('fill', function (d) { return fillHueAttack(d.attack_type); })
+            .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
+            // .attr('fill', function (d) { return fillHueName(d.name); })
+            // .attr("stroke", function (d) { return fillHueName(d.name); })
             .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
 
         var text = gs.append('text')
             .attr("text-anchor", "middle")
             .attr('fill', '#e0e0e0')
-            .text(function (d, i) { return d.name; })
+            .text(function (d, i) { return d.japanese; })
             .attr('dx', function (d, i) { return 0; })
             .attr('dy', function (d, i) { return -5; })
             .style('font-size', '14px');
@@ -81,17 +89,17 @@ function init () {
             .attr('dy', function (d, i) { return 15; })
             .style('font-size', '18px');
 
-        var rank_text = gs.append('text')
-            .attr("text-anchor", "middle")
-            .attr('fill', function (d) { return d3.hsl(0, 0.0, 0.8);})
-            .text(getRankNumber)
-            .attr('dx', function (d, i) { return 12; })
-            .attr('dy', function (d, i) { return 15; })
-            .style('font-size', '18px');
+        // var rank_text = gs.append('text')
+        //     .attr("text-anchor", "middle")
+        //     .attr('fill', function (d) { return d3.hsl(0, 0.0, 0.8);})
+        //     .text(getRankNumber)
+        //     .attr('dx', function (d, i) { return 12; })
+        //     .attr('dy', function (d, i) { return 15; })
+        //     .style('font-size', '18px');
 
         force.on("tick", function () {
             svg.selectAll('g').attr("transform", function (d) {
-                return "translate(" + d.x + "," + d.y + ")";
+                return `translate(${d.x},${d.y})`;
             });
         });
         force.start();
@@ -136,10 +144,10 @@ function update () {
 
     var circle = gs.append('circle')
         .attr('r', function (d) { return radius; })
-        // .attr('fill', function (d) { return fillHueAttack(d.attack_type); })
-        // .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
-        .attr('fill', function (d) { return fillHueName(d.name); })
-        .attr("stroke", function (d) { return fillHueName(d.name); })
+        .attr('fill', function (d) { return fillHueAttack(d.attack_type); })
+        .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
+        // .attr('fill', function (d) { return fillHueName(d.name); })
+        // .attr("stroke", function (d) { return fillHueName(d.name); })
         .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
 
     var text = gs.append('text')
@@ -158,13 +166,13 @@ function update () {
             .attr('dy', function (d, i) { return 15; })
             .style('font-size', '18px');
 
-    var rank_text = gs.append('text')
-        .attr("text-anchor", "middle")
-        .attr('fill', function (d) { return d3.hsl(fillHueAttack(d.id), 1, 0.65);})
-        .text(getRankNumber)
-        .attr('dx', function (d, i) { return 12; })
-        .attr('dy', function (d, i) { return 15; })
-        .style('font-size', '18px');
+    // var rank_text = gs.append('text')
+    //     .attr("text-anchor", "middle")
+    //     .attr('fill', function (d) { return d3.hsl(fillHueAttack(d.id), 1, 0.65);})
+    //     .text(getRankNumber)
+    //     .attr('dx', function (d, i) { return 12; })
+    //     .attr('dy', function (d, i) { return 15; })
+    //     .style('font-size', '18px');
 
     force.nodes(filtered_data);
     force.start();
@@ -239,22 +247,12 @@ function updateCount (len) {
 }
 
 function onClick (evt) {
-    var target = evt.target.tagName;
     var class_name = evt.target.className;
-    if (target === 'LI') {
-        if (class_name === 'protein') {
-            sort_string = 'Protein_in_g';
-        }
-        if (class_name === 'fat') {
-            sort_string = 'Saturated_Fat_in_g';
-        }
-        if (class_name === 'sugar') {
-            sort_string = 'Sugar_in_g';
-        }
-        if (class_name === 'sodium') {
-            sort_string = 'Sodium_in_mg';
-        }
-        update();
+    if (class_name === 'blackground') {
+        hideDetailsView();
+    }
+    if (class_name === 'closeX') {
+        hideDetailsView();
     }
 }
 
@@ -266,7 +264,7 @@ function onChange (evt) {
     update();
 }
 
-// document.body.addEventListener('click', onClick);
+document.body.addEventListener('click', onClick);
 document.body.addEventListener('change', onChange);
 init();
 
@@ -311,13 +309,12 @@ function renumberAndLogData (data) {
     data.forEach(function (t, i) {
         techniques.add(t.name);
     });
-    // console.log([...techniques]);
     console.log(JSON.stringify(data, null, 4));
 }
 
 function fillHueAttack (attack_type) {
     var n = all_filters.attack_type.indexOf(attack_type);
-    return d3.hsl(n * 90, 0.8, 0.2);
+    return d3.hsl(n * 60, 0.8, 0.35);
 }
 function fillHueName (name) {
     var n = all_names.indexOf(name);
@@ -330,12 +327,6 @@ function handleMouseOver (d) {
         .transition().duration(250)
         .attr('r', function (d) { return radius * 2; });
     force.start();
-    // div.transition()        
-    //     .duration(200)      
-    //     .style("opacity", .9);      
-    // div.html(d.notes)  
-    //     .style("left", (d3.event.pageX - 28) + "px")     
-    //     .style("top", (d3.event.pageY + 28) + "px");    
 }
 
 function handleMouseOut (d) { 
@@ -344,7 +335,39 @@ function handleMouseOut (d) {
         .transition().duration(250)
         .attr('r', function (d) { return radius; });
     force.start();
-    // div.transition()        
-    //     .duration(500)      
-    //     .style("opacity", 0);   
+}
+
+function handleDblClick (d) {
+    showDetailsView(d);
+}
+
+function showDetailsView (d) {
+    d3.selectAll('.blackground').classed('hidden', false);
+    d3.selectAll('.details').classed('hidden', false)
+        .html(getDetailsHTML(d));
+}
+
+function hideDetailsView () {
+    d3.selectAll('.blackground').classed('hidden', true);
+    d3.selectAll('.details').classed('hidden', true);
+}
+
+function getDetailsHTML (d) {
+    console.log(d);
+    return `<div class="closeX" style="left:${width - 430}px; top: 0px">X</div>
+        <h2 class="technique_name">${capitalize(d.attack_type)} ${capitalize(d.name)}</h2>
+        <iframe width="420" height="315" 
+            src="https://www.youtube.com/embed/${d.youtube_id}" 
+            frameborder="0" allowfullscreen>
+        </iframe>
+        <div class="notes hidden">Notes: ${d.notes}</div>
+        <div class="technique_type hidden">Type: ${d.technique_type}</div>
+        <div class="rank">Rank: ${d.rank}</div>`
+
+}
+
+function capitalize (str) {
+    return str.toLowerCase().replace( /\b\w/g, function (m) {
+        return m.toUpperCase();
+    });
 }

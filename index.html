@@ -6,7 +6,7 @@
 	<style type="text/css">
 		body {
 			background-color: #000;
-			font: 12px sans-serif;
+			font: 14px sans-serif;
 			margin: 0;
 			padding: 0;
 			color: #e0e0e0;
@@ -50,14 +50,14 @@
 		li {
 			cursor: pointer;
 			display: block;
-			padding: 5px 5px 5px 20px;
+			padding: 0px 5px 7px 20px;
 		}
 		.filter_count {
 			padding-left: 10px;
 			font-size: 12px;
 			color: #888;
 		}
-		.filter_count.hidden {
+		.hidden {
 			display: none;
 		}
 		.filter.disabled {
@@ -73,6 +73,42 @@
 		    background: rgba(0, 0, 0, 0.8);	
 		    border: 0px;				
 		    pointer-events: none;			
+		}
+
+		/* details */
+		.blackground {
+			position: absolute;
+			left: 200px;
+			background: rgba(0, 0, 0, 0.7);	
+		}
+		.details {
+			position: absolute;
+			left: 400px;
+			top: 200px;
+			background: rgba(255, 255, 255, 0.8);
+			border-radius: 10px;
+			padding: 20px;
+			color: #202020;
+		}
+		.closeX {
+			position:relative;
+			display: inline-block;
+			background: rgba(0, 0, 0, 0.5);
+			width: 15px;
+			height: 15px;
+			padding: 7px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.closeX:hover {
+			color: #AAA;
+		}
+		.technique_name {
+			
+		}
+		.notes, .technique_type, .rank {
+			max-width: 420px;
+			padding-top: 10px;
 		}
 		
 	</style> 
