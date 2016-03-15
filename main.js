@@ -17,25 +17,25 @@ var force = d3.layout.force()
 var radius = 30;
 var waza_data = [];
 var filtered_data = [];
-var filters = {}; // the currently selected filters
+var filters = {
+    attack_type: 'all',
+    technique_type: 'all',
+    rank: 'all',
+    opening: 'all'
+};
 var all_filters = {}; // all possible filters
 var all_names = []; // needed for total count
 var currently_selected_filter_category = '';
-
-
 var blackground = d3.select("body").append("div")
     .attr("class", "blackground hidden")
     .attr("style", `width:${width}px; height: ${height}px`);
-
 var details_div = d3.select("body").append("div")
     .attr("class", "details hidden")
     .attr("style", `width:${width - 400}px; height: ${height - 400}px`);
-    
-
 // Define the div for the tooltip
-var div = d3.select("body").append("div")   
-    .attr("class", "tooltip")               
-    .style("opacity", 0);
+// var tooltop_div = d3.select("body").append("div")   
+//     .attr("class", "tooltip")               
+//     .style("opacity", 0);
 
 function init () { 
     d3.json("techniques.js", function (error, data) {
@@ -76,7 +76,7 @@ function init () {
         var text = gs.append('text')
             .attr("text-anchor", "middle")
             .attr('fill', '#e0e0e0')
-            .text(function (d, i) { return d.japanese; })
+            .text(function (d, i) { return d.name; })
             .attr('dx', function (d, i) { return 0; })
             .attr('dy', function (d, i) { return -5; })
             .style('font-size', '14px');
@@ -234,12 +234,6 @@ function drawFilters (data) {
     }
 
     list_el.innerHTML = html_string;
-    filters = {
-        attack_type: 'all',
-        technique_type: 'all',
-        rank: 'all',
-        opening: 'all'
-    }
 }
 
 function updateCount (len) {
@@ -269,62 +263,10 @@ document.body.addEventListener('change', onChange);
 init();
 
 // -------------------------------------------------------------------------- //
-
-function getSymbol (d) { 
-    var symbol = '⤴︎'; // irimi, offline irimi, step offline, switch feet, tenkan
-    switch (d.opening) {
-    case 'irimi':
-        symbol = '↑';
-        break;
-    case 'offline irimi':
-        symbol = '⤴︎';
-        break;
-    case 'step offline':
-        symbol = '⊿';
-        break;
-    case 'switch feet':
-        symbol = '☐';
-        break;
-    case 'tenkan':
-        symbol = '⟲';
-        break;
-    case 'irimi tenkan':
-        symbol = '↑⟲';
-        break;
-    default:
-        symbol = '?';
-        break;
-    }
-    return symbol; 
-}
-
-function getRankNumber (d) {
-    return (d.rank.substring(0,1));
-}
-function renumberAndLogData (data) {
-    data.forEach(function (t, i) {
-        t.id = i+1;
-    });
-    var techniques = new Set();
-    data.forEach(function (t, i) {
-        techniques.add(t.name);
-    });
-    console.log(JSON.stringify(data, null, 4));
-}
-
-function fillHueAttack (attack_type) {
-    var n = all_filters.attack_type.indexOf(attack_type);
-    return d3.hsl(n * 60, 0.8, 0.35);
-}
-function fillHueName (name) {
-    var n = all_names.indexOf(name);
-    return d3.hsl(n * 14, 0.8, 0.2);
-}
-
 function handleMouseOver (d) {
     d.charge = -500;
     d3.select(this).select('circle')
-        .transition().duration(250)
+        .transition().duration(250).ease('cubic-out')
         .attr('r', function (d) { return radius * 2; });
     force.start();
 }
@@ -332,7 +274,7 @@ function handleMouseOver (d) {
 function handleMouseOut (d) { 
     d.charge = -200;
     d3.select(this).select('circle')
-        .transition().duration(250)
+        .transition().duration(250).ease('cubic-out')
         .attr('r', function (d) { return radius; });
     force.start();
 }
@@ -365,9 +307,57 @@ function getDetailsHTML (d) {
         <div class="rank">Rank: ${d.rank}</div>`
 
 }
-
+// -------------------------------------------------------------------------- //
 function capitalize (str) {
     return str.toLowerCase().replace( /\b\w/g, function (m) {
         return m.toUpperCase();
     });
+}
+function getSymbol (d) { 
+    var symbol = '⤴︎'; // irimi, offline irimi, step offline, switch feet, tenkan
+    switch (d.opening) {
+    case 'irimi':
+        symbol = '↑';
+        break;
+    case 'offline irimi':
+        symbol = '⤴︎';
+        break;
+    case 'step offline':
+        symbol = '⊿';
+        break;
+    case 'switch feet':
+        symbol = '☐';
+        break;
+    case 'tenkan':
+        symbol = '⟲';
+        break;
+    case 'irimi tenkan':
+        symbol = '↑⟲';
+        break;
+    default:
+        symbol = '?';
+        break;
+    }
+    return symbol; 
+}
+function getRankNumber (d) {
+    return (d.rank.substring(0,1));
+}
+function renumberAndLogData (data) {
+    data.forEach(function (t, i) {
+        t.id = i+1;
+    });
+    var techniques = new Set();
+    data.forEach(function (t, i) {
+        techniques.add(t.name);
+    });
+    console.log(JSON.stringify(data, null, 4));
+}
+function fillHueAttack (attack_type) {
+    var n = all_filters.attack_type.indexOf(attack_type);
+    return d3.hsl(n * 60, 0.9, 0.2);
+}
+function fillHueName (name) {
+    var n = all_names.indexOf(name);
+    return d3.hsl(n * 14, 0.8, 0.2);
 }
