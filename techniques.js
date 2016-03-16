@@ -18,7 +18,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "_MPwI4RmHeU?t=5m12s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -34,7 +34,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "_MPwI4RmHeU?t=7m12s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -50,7 +50,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -66,7 +66,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -82,7 +82,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "Kt6ROzf02cI"
+                    "youtube_id": "Kt6ROzf02cI?t=35s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -98,7 +98,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -130,7 +130,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -146,7 +146,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -162,7 +162,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -178,7 +178,7 @@
                     "translation": "corner drop",
                     "opening": "switch feet",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -194,7 +194,7 @@
                     "translation": "corner drop",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -210,7 +210,7 @@
                     "translation": "corner drop",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -226,7 +226,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "Kt6ROzf02cI"
+                    "youtube_id": "Kt6ROzf02cI?t=5s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -242,7 +242,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -258,7 +258,7 @@
                     "translation": "",
                     "opening": "switch feet",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -274,7 +274,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -290,7 +290,7 @@
                     "translation": "",
                     "opening": "switch feet",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -306,7 +306,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -322,7 +322,7 @@
                     "translation": "",
                     "opening": "switch feet",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -338,7 +338,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -354,7 +354,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -370,7 +370,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -386,7 +386,23 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "Kt6ROzf02cI"
+                    "youtube_id": "Kt6ROzf02cI?t=1m"
+                },
+                {
+                    "attack_type": "katatetori",
+                    "attack_variation": "gyaku hanmi",
+                    "name": "nikyo",
+                    "name_alt": "",
+                    "japanese": "",
+                    "id": 32,
+                    "technique_type": "immobilization",
+                    "variation": "",
+                    "rank": "",
+                    "notes": "Yamada style",
+                    "translation": "",
+                    "opening": "tenkan",
+                    "url": "",
+                    "youtube_id": "Kt6ROzf02cI?t=1m17s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -402,7 +418,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -423,6 +439,22 @@
                 {
                     "attack_type": "katatetori",
                     "attack_variation": "gyaku hanmi",
+                    "name": "kokyunage",
+                    "name_alt": "",
+                    "japanese": "呼吸投げ",
+                    "id": 31,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "Yamada style - bring uke around as you drop, then extend past uke's head",
+                    "translation": "",
+                    "opening": "tenkan",
+                    "url": "",
+                    "youtube_id": "Kt6ROzf02cI?t=45s"
+                },
+                {
+                    "attack_type": "katatetori",
+                    "attack_variation": "gyaku hanmi",
                     "name": "katagatame",
                     "name_alt": "",
                     "japanese": "?",
@@ -434,7 +466,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -450,7 +482,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "katatetori",
@@ -466,7 +498,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"}
+                    "youtube_id": ""}
                 , 
                 {
                     "attack_type": "katatetori",
@@ -504,7 +536,7 @@
                     "translation": "1st technique",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "_MPwI4RmHeU?t=8s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -520,7 +552,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "_MPwI4RmHeU?t=1m50s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -536,7 +568,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -552,7 +584,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -568,7 +600,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "P9vfsfv3ZQg?t=20s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -584,7 +616,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "P9vfsfv3ZQgt=1m28s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -600,7 +632,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -616,7 +648,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -632,7 +664,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -664,7 +696,7 @@
                     "translation": "",
                     "opening": "irimi tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -680,7 +712,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -696,7 +728,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "P9vfsfv3ZQg?t=6s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -712,7 +744,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "P9vfsfv3ZQg?t=35s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -728,7 +760,7 @@
                     "translation": "",
                     "opening": "irimi tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "P9vfsfv3ZQg?t=56s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -744,7 +776,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "P9vfsfv3ZQg?t=1m20s"
                 }
             ]
         },
@@ -782,7 +814,7 @@
                     "translation": "",
                     "opening": "step inside",
                     "url": "",
-                    "youtube_id": "eBXeLB-dMOk"
+                    "youtube_id": "eBXeLB-dMOk?t=17s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -797,8 +829,8 @@
                     "notes": "same entrance as gokyo",
                     "translation": "",
                     "opening": "irimi",
-                    "url": "",
-                    "youtube_id": "eBXeLB-dMOk"
+                    "url": "P9vfsfv3ZQg?t=2m20s",
+                    "youtube_id": "eBXeLB-dMOk?t=2m54s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -814,7 +846,7 @@
                     "translation": "",
                     "opening": "step inside",
                     "url": "",
-                    "youtube_id": "eBXeLB-dMOk"
+                    "youtube_id": "eBXeLB-dMOkt=5m24s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -830,7 +862,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "eBXeLB-dMOk"
+                    "youtube_id": "eBXeLB-dMOk?t=7m15s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -894,7 +926,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "P9vfsfv3ZQg?t=1m46s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -910,7 +942,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "P9vfsfv3ZQg?t=1m56s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -980,7 +1012,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "morotetori",
@@ -996,7 +1028,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "morotetori",
@@ -1012,7 +1044,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "morotetori",
@@ -1028,7 +1060,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "morotetori",
@@ -1044,7 +1076,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
 
                 {
@@ -1061,7 +1093,7 @@
                     "translation": "",
                     "opening": "switch feet",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "morotetori",
@@ -1077,7 +1109,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "morotetori",
@@ -1093,7 +1125,23 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
+                },
+                {
+                    "attack_type": "morotetori",
+                    "attack_variation": "",
+                    "name": "shihonage",
+                    "name_alt": "",
+                    "japanese": "四方投げ",
+                    "id": 14,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "turn hand up and uke grabs",
+                    "translation": "",
+                    "opening": "irimi kaiten",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=1m35s"
                 },
                 {
                     "attack_type": "morotetori",
@@ -1109,7 +1157,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "morotetori",
@@ -1125,7 +1173,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "morotetori",
@@ -1141,7 +1189,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "morotetori",
@@ -1157,7 +1205,39 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
+                },
+                {
+                    "attack_type": "morotetori",
+                    "attack_variation": "",
+                    "name": "kokyunage",
+                    "name_alt": "",
+                    "japanese": "呼吸投げ",
+                    "id": 12,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "",
+                    "translation": "drop your arm and enter omote, then raise your arm over ukes head",
+                    "opening": "irimi tenkan",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=1m11s"
+                },
+                {
+                    "attack_type": "morotetori",
+                    "attack_variation": "",
+                    "name": "kokyunage",
+                    "name_alt": "",
+                    "japanese": "呼吸投げ",
+                    "id": 13,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "",
+                    "translation": "drop and swoop your arm outside",
+                    "opening": "kneel offline",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=1m25s"
                 }
             ]
         },
@@ -1179,7 +1259,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1195,7 +1275,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1211,7 +1291,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1227,7 +1307,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1243,7 +1323,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
 
                 {
@@ -1260,7 +1340,7 @@
                     "translation": "step back as you swoop ukes tsuki up and into ikkyo",
                     "opening": "tenshin",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1276,7 +1356,7 @@
                     "translation": "step in and kaiten / extend past uke's head",
                     "opening": "irimi kaiten",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1292,7 +1372,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1308,7 +1388,7 @@
                     "translation": "",
                     "opening": "irimi tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1324,7 +1404,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1340,7 +1420,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1356,7 +1436,7 @@
                     "translation": "",
                     "opening": "step inside",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "tsuki",
@@ -1372,7 +1452,7 @@
                     "translation": "",
                     "opening": "irimi tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 }
             ]
         },
@@ -1394,7 +1474,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "ryotetori",
@@ -1410,7 +1490,7 @@
                     "translation": "",
                     "opening": "tenshin",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
                 },
                 {
                     "attack_type": "ryotetori",
@@ -1426,7 +1506,119 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": ""
+                },
+                {
+                    "attack_type": "ryotetori",
+                    "attack_variation": "",
+                    "name": "kokyunage",
+                    "name_alt": "",
+                    "japanese": "呼吸投げ",
+                    "id": 4,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "",
+                    "translation": "catch the forward hand like soto as you move behind and raise the other hand",
+                    "opening": "irimi tenkan",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=1m55s"
+                },
+                {
+                    "attack_type": "ryotetori",
+                    "attack_variation": "",
+                    "name": "kokyunage",
+                    "name_alt": "",
+                    "japanese": "呼吸投げ",
+                    "id": 5,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "receive uke and project forward",
+                    "translation": "",
+                    "opening": "irimi",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=2m11s"
+                },
+                {
+                    "attack_type": "ryotetori",
+                    "attack_variation": "",
+                    "name": "kokyunage",
+                    "name_alt": "",
+                    "japanese": "呼吸投げ",
+                    "id": 6,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "enter in front, kneel down and cut",
+                    "translation": "",
+                    "opening": "irimi",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=2m21s"
+                },
+                {
+                    "attack_type": "ryotetori",
+                    "attack_variation": "",
+                    "name": "kokyunage",
+                    "name_alt": "",
+                    "japanese": "呼吸投げ",
+                    "id": 7,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "bring uke around your back as you step in front and drop",
+                    "translation": "",
+                    "opening": "irimi",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=2m31s"
+                },
+                {
+                    "attack_type": "ryotetori",
+                    "attack_variation": "",
+                    "name": "kokyunage",
+                    "name_alt": "",
+                    "japanese": "呼吸投げ",
+                    "id": 8,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "bring uke around and project past his head",
+                    "translation": "",
+                    "opening": "irimi tenkan",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=2m41s"
+                },
+                {
+                    "attack_type": "ryotetori",
+                    "attack_variation": "",
+                    "name": "nikyo",
+                    "name_alt": "",
+                    "japanese": "二教",
+                    "id": 9,
+                    "technique_type": "immobilization",
+                    "variation": "",
+                    "rank": "*",
+                    "notes": "",
+                    "translation": "",
+                    "opening": "tenshin",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=3m00s"
+                },
+                {
+                    "attack_type": "ryotetori",
+                    "attack_variation": "",
+                    "name": "kokyunage",
+                    "name_alt": "",
+                    "japanese": "呼吸投げ",
+                    "id": 10,
+                    "technique_type": "projection",
+                    "variation": "draping move",
+                    "rank": "*",
+                    "notes": "",
+                    "translation": "",
+                    "opening": "step offline",
+                    "url": "",
+                    "youtube_id": "NmIuiuaREpk?t=3m25s"
                 }
             ]
         }
