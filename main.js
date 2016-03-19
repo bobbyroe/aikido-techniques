@@ -72,7 +72,10 @@ function init () {
             // .attr('fill', function (d) { return fillHueName(d.name); })
             // .attr("stroke", function (d) { return fillHueName(d.name); })
             .attr('fill', function (d) { return fillHueOpening(d.opening); })
-            .attr("stroke", function (d) { return fillHueOpening(d.opening); })
+            .attr("stroke", function (d) { 
+                var needs_border = d.youtube_id === "";
+                return fillHueOpening(d.opening, needs_border); 
+            })
             .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
 
         var text = gs.append('text')
@@ -152,7 +155,10 @@ function update () {
         // .attr('fill', function (d) { return fillHueName(d.name); })
         // .attr("stroke", function (d) { return fillHueName(d.name); })
         .attr('fill', function (d) { return fillHueOpening(d.opening); })
-        .attr("stroke", function (d) { return fillHueOpening(d.opening); })
+        .attr("stroke", function (d) { 
+            var needs_border = d.youtube_id === "";
+            return fillHueOpening(d.opening, needs_border); 
+        })
         .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
 
     var text = gs.append('text')
@@ -367,7 +373,12 @@ function fillHueName (name) {
     var n = all_names.indexOf(name);
     return d3.hsl(n * 14, 0.8, 0.2);
 }
-function fillHueOpening (opening) {
+function fillHueOpening (opening, needs_border) {
     var n = all_filters.opening.indexOf(opening);
-    return d3.hsl(n * 75, 0.8, 0.2);
+    var col = d3.hsl(n * 75, 0.8, 0.2);
+
+    if (needs_border === true) {
+        col = d3.hsl(0, 0, 1); 
+    }
+    return col;
 }

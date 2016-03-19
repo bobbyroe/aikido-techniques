@@ -120,13 +120,13 @@
                     "attack_type": "katatetori",
                     "attack_variation": "gyaku hanmi",
                     "name": "kokyunage",
-                    "name_alt": "jujinage",
+                    "name_alt": "udekimenage",
                     "japanese": "呼吸投げ",
                     "id": 8,
                     "technique_type": "projection",
                     "variation": "",
                     "rank": "4th kyu",
-                    "notes": "",
+                    "notes": "Tenzan name: jujinage",
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
@@ -338,12 +338,12 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": ""
+                    "youtube_id": "mjbZDCkIZeU&t=28s"
                 },
                 {
                     "attack_type": "katatetori",
                     "attack_variation": "gyaku hanmi",
-                    "name": "hiji waza",
+                    "name": "hiji nage",
                     "name_alt": "arm bar",
                     "japanese": "?",
                     "id": 22,
@@ -354,7 +354,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": ""
+                    "youtube_id": "mjbZDCkIZeU&t=2m32s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -482,7 +482,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": ""
+                    "youtube_id": "gqvZ4KzIESw&t=21s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -498,7 +498,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": ""}
+                    "youtube_id": "uEEV-ZzoWgo&t=1m43s"}
                 , 
                 {
                     "attack_type": "katatetori",
@@ -512,7 +512,7 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "opening": "step inside",
+                    "opening": "tenshin",
                     "url": "",
                     "youtube_id": "VtjNiohlH5Q"
                 }
