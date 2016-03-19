@@ -18,7 +18,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "_MPwI4RmHeU?t=5m12s"
+                    "youtube_id": "_MPwI4RmHeU&t=5m12s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -34,7 +34,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "_MPwI4RmHeU?t=7m12s"
+                    "youtube_id": "_MPwI4RmHeU&t=7m12s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -45,7 +45,7 @@
                     "id": 3,
                     "technique_type": "projection",
                     "variation": "",
-                    "rank": "*",
+                    "rank": "1st kyu",
                     "notes": "reach down diagonally in front of uke and drop",
                     "translation": "",
                     "opening": "irimi",
@@ -61,7 +61,7 @@
                     "id": 4,
                     "technique_type": "projection",
                     "variation": "inside spiral",
-                    "rank": "*",
+                    "rank": "5th kyu",
                     "notes": "",
                     "translation": "",
                     "opening": "irimi",
@@ -82,7 +82,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "Kt6ROzf02cI?t=35s"
+                    "youtube_id": "Kt6ROzf02cI&t=35s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -93,7 +93,7 @@
                     "id": 6,
                     "technique_type": "projection",
                     "variation": "ki no nagare",
-                    "rank": "*",
+                    "rank": "3rd kyu",
                     "notes": "step in and swoop uke's arm into yours as you break the grip, then extend past his head",
                     "translation": "",
                     "opening": "step offline",
@@ -109,7 +109,7 @@
                     "id": 7,
                     "technique_type": "projection",
                     "variation": "double cut",
-                    "rank": "*",
+                    "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
                     "opening": "step offline",
@@ -125,7 +125,7 @@
                     "id": 8,
                     "technique_type": "projection",
                     "variation": "",
-                    "rank": "*",
+                    "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
                     "opening": "tenkan",
@@ -141,7 +141,7 @@
                     "id": 9,
                     "technique_type": "projection",
                     "variation": "into back roll / breakfall",
-                    "rank": "*",
+                    "rank": "shodan",
                     "notes": "extend hand down and behind uke, to unballance them",
                     "translation": "",
                     "opening": "offline irimi",
@@ -173,7 +173,7 @@
                     "id": 11,
                     "technique_type": "projection",
                     "variation": "",
-                    "rank": "*",
+                    "rank": "1st kyu",
                     "notes": "like sumiotoshi into a forward roll",
                     "translation": "corner drop",
                     "opening": "switch feet",
@@ -226,7 +226,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "Kt6ROzf02cI?t=5s"
+                    "youtube_id": "Kt6ROzf02cI&t=5s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -253,7 +253,7 @@
                     "id": 16,
                     "technique_type": "immobilization",
                     "variation": "w/ atemi",
-                    "rank": "*",
+                    "rank": "2nd kyu",
                     "notes": "cut ukes arm at the elbow, as you step in place, then tenkan",
                     "translation": "",
                     "opening": "switch feet",
@@ -285,7 +285,7 @@
                     "id": 18,
                     "technique_type": "projection",
                     "variation": "reverse kotegaeshi",
-                    "rank": "*",
+                    "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
                     "opening": "switch feet",
@@ -322,7 +322,7 @@
                     "translation": "",
                     "opening": "switch feet",
                     "url": "",
-                    "youtube_id": ""
+                    "youtube_id": "Kt6ROzf02cI&t=3m6s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -333,7 +333,7 @@
                     "id": 21,
                     "technique_type": "immobilization",
                     "variation": "swopping move",
-                    "rank": "*",
+                    "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
                     "opening": "tenkan",
@@ -349,7 +349,7 @@
                     "id": 22,
                     "technique_type": "projection",
                     "variation": "",
-                    "rank": "*",
+                    "rank": "1st kyu",
                     "notes": "step to the side and lower the grabbed hand, while bracing uke's elbow with the other",
                     "translation": "",
                     "opening": "step offline",
@@ -365,7 +365,7 @@
                     "id": 23,
                     "technique_type": "projection",
                     "variation": "",
-                    "rank": "*",
+                    "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
                     "opening": "offline irimi",
@@ -386,7 +386,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "Kt6ROzf02cI?t=1m"
+                    "youtube_id": "Kt6ROzf02cI&t=1m"
                 },
                 {
                     "attack_type": "katatetori",
@@ -397,12 +397,12 @@
                     "id": 32,
                     "technique_type": "immobilization",
                     "variation": "",
-                    "rank": "",
+                    "rank": "*",
                     "notes": "Yamada style",
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "Kt6ROzf02cI?t=1m17s"
+                    "youtube_id": "Kt6ROzf02cI&t=1m17s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -450,7 +450,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": "Kt6ROzf02cI?t=45s"
+                    "youtube_id": "Kt6ROzf02cI&t=45s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -536,7 +536,7 @@
                     "translation": "1st technique",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "_MPwI4RmHeU?t=8s"
+                    "youtube_id": "_MPwI4RmHeU&t=8s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -552,7 +552,7 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": "_MPwI4RmHeU?t=1m50s"
+                    "youtube_id": "_MPwI4RmHeU&t=1m50s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -600,7 +600,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg?t=20s"
+                    "youtube_id": "P9vfsfv3ZQg&t=20s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -632,7 +632,23 @@
                     "translation": "",
                     "opening": "offline irimi",
                     "url": "",
-                    "youtube_id": ""
+                    "youtube_id": "Kt6ROzf02cI&t=3m36s"
+                },
+                {
+                    "attack_type": "shomenuchi",
+                    "attack_variation": "",
+                    "name": "koshinage",
+                    "name_alt": "",
+                    "japanese": "腰投げ",
+                    "id": 17,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "shodan",
+                    "notes": "from ikkyo",
+                    "translation": "",
+                    "opening": "irimi",
+                    "url": "",
+                    "youtube_id": "Kt6ROzf02cI&t=3m52s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -728,7 +744,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg?t=6s"
+                    "youtube_id": "P9vfsfv3ZQg&t=6s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -744,7 +760,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg?t=35s"
+                    "youtube_id": "P9vfsfv3ZQg&t=35s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -760,7 +776,7 @@
                     "translation": "",
                     "opening": "irimi tenkan",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg?t=56s"
+                    "youtube_id": "P9vfsfv3ZQg&t=56s"
                 },
                 {
                     "attack_type": "shomenuchi",
@@ -776,7 +792,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg?t=1m20s"
+                    "youtube_id": "P9vfsfv3ZQg&t=1m20s"
                 }
             ]
         },
@@ -814,7 +830,7 @@
                     "translation": "",
                     "opening": "step inside",
                     "url": "",
-                    "youtube_id": "eBXeLB-dMOk?t=17s"
+                    "youtube_id": "eBXeLB-dMOk&t=17s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -829,8 +845,8 @@
                     "notes": "same entrance as gokyo",
                     "translation": "",
                     "opening": "irimi",
-                    "url": "P9vfsfv3ZQg?t=2m20s",
-                    "youtube_id": "eBXeLB-dMOk?t=2m54s"
+                    "url": "P9vfsfv3ZQg&t=2m20s",
+                    "youtube_id": "eBXeLB-dMOk&t=2m54s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -862,7 +878,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "eBXeLB-dMOk?t=7m15s"
+                    "youtube_id": "eBXeLB-dMOk&t=7m15s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -908,7 +924,7 @@
                     "rank": "*",
                     "notes": "step back and cut",
                     "translation": "",
-                    "opening": "step back",
+                    "opening": "tenshin",
                     "url": "",
                     "youtube_id": "P9vfsfv3ZQg"
                 },
@@ -926,7 +942,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg?t=1m46s"
+                    "youtube_id": "P9vfsfv3ZQg&t=1m46s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -942,7 +958,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg?t=1m56s"
+                    "youtube_id": "P9vfsfv3ZQg&t=1m56s"
                 },
                 {
                     "attack_type": "yokomenuchi",
@@ -990,7 +1006,23 @@
                     "translation": "",
                     "opening": "step inside", 
                     "url": "",
-                    "youtube_id": "P9vfsfv3ZQg"
+                    "youtube_id": "Kt6ROzf02cI&t=4m8s"
+                },
+                {
+                    "attack_type": "yokomenuchi",
+                    "attack_variation": "",
+                    "name": "koshinage",
+                    "name_alt": "",
+                    "japanese": "腰投げ",
+                    "id": 14,
+                    "technique_type": "projection",
+                    "variation": "",
+                    "rank": "shodan",
+                    "notes": "direct entry – arm around uke",
+                    "translation": "",
+                    "opening": "irimi", 
+                    "url": "",
+                    "youtube_id": "Kt6ROzf02cI&t=4m25s"
                 }
             ]
         },
@@ -1141,7 +1173,7 @@
                     "translation": "",
                     "opening": "irimi kaiten",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=1m35s"
+                    "youtube_id": "NmIuiuaREpk&t=1m35s"
                 },
                 {
                     "attack_type": "morotetori",
@@ -1221,7 +1253,7 @@
                     "translation": "drop your arm and enter omote, then raise your arm over ukes head",
                     "opening": "irimi tenkan",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=1m11s"
+                    "youtube_id": "NmIuiuaREpk&t=1m11s"
                 },
                 {
                     "attack_type": "morotetori",
@@ -1235,9 +1267,9 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "drop and swoop your arm outside",
-                    "opening": "kneel offline",
+                    "opening": "step offline",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=1m25s"
+                    "youtube_id": "NmIuiuaREpk&t=1m25s"
                 }
             ]
         },
@@ -1522,7 +1554,7 @@
                     "translation": "catch the forward hand like soto as you move behind and raise the other hand",
                     "opening": "irimi tenkan",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=1m55s"
+                    "youtube_id": "NmIuiuaREpk&t=1m55s"
                 },
                 {
                     "attack_type": "ryotetori",
@@ -1538,7 +1570,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=2m11s"
+                    "youtube_id": "NmIuiuaREpk&t=2m11s"
                 },
                 {
                     "attack_type": "ryotetori",
@@ -1554,7 +1586,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=2m21s"
+                    "youtube_id": "NmIuiuaREpk&t=2m21s"
                 },
                 {
                     "attack_type": "ryotetori",
@@ -1570,7 +1602,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=2m31s"
+                    "youtube_id": "NmIuiuaREpk&t=2m31s"
                 },
                 {
                     "attack_type": "ryotetori",
@@ -1586,7 +1618,7 @@
                     "translation": "",
                     "opening": "irimi tenkan",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=2m41s"
+                    "youtube_id": "NmIuiuaREpk&t=2m41s"
                 },
                 {
                     "attack_type": "ryotetori",
@@ -1602,7 +1634,7 @@
                     "translation": "",
                     "opening": "tenshin",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=3m00s"
+                    "youtube_id": "NmIuiuaREpk&t=3m00s"
                 },
                 {
                     "attack_type": "ryotetori",
@@ -1618,7 +1650,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": "NmIuiuaREpk?t=3m25s"
+                    "youtube_id": "NmIuiuaREpk&t=3m25s"
                 }
             ]
         }

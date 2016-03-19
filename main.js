@@ -33,9 +33,9 @@ var details_div = d3.select("body").append("div")
     .attr("class", "details hidden")
     .attr("style", `width:${width - 400}px; height: ${height - 400}px`);
 // Define the div for the tooltip
-// var tooltop_div = d3.select("body").append("div")   
-//     .attr("class", "tooltip")               
-//     .style("opacity", 0);
+var tooltop_div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
 
 function init () { 
     d3.json("techniques.js", function (error, data) {
@@ -67,10 +67,12 @@ function init () {
 
         var circle = gs.append('circle')
             .attr('r', function (d) { return radius; })
-            .attr('fill', function (d) { return fillHueAttack(d.attack_type); })
-            .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
+            // .attr('fill', function (d) { return fillHueAttack(d.attack_type); })
+            // .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
             // .attr('fill', function (d) { return fillHueName(d.name); })
             // .attr("stroke", function (d) { return fillHueName(d.name); })
+            .attr('fill', function (d) { return fillHueOpening(d.opening); })
+            .attr("stroke", function (d) { return fillHueOpening(d.opening); })
             .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
 
         var text = gs.append('text')
@@ -133,6 +135,7 @@ function update () {
         .attr("opacity", 1.0);
     gs.on("mouseover", handleMouseOver)                  
         .on("mouseout", handleMouseOut)
+        .on("dblclick", handleDblClick)
         .call(force.drag);
 
     gs.exit().transition()
@@ -144,10 +147,12 @@ function update () {
 
     var circle = gs.append('circle')
         .attr('r', function (d) { return radius; })
-        .attr('fill', function (d) { return fillHueAttack(d.attack_type); })
-        .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
+        // .attr('fill', function (d) { return fillHueAttack(d.attack_type); })
+        // .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
         // .attr('fill', function (d) { return fillHueName(d.name); })
         // .attr("stroke", function (d) { return fillHueName(d.name); })
+        .attr('fill', function (d) { return fillHueOpening(d.opening); })
+        .attr("stroke", function (d) { return fillHueOpening(d.opening); })
         .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
 
     var text = gs.append('text')
@@ -280,7 +285,8 @@ function handleMouseOut (d) {
 }
 
 function handleDblClick (d) {
-    showDetailsView(d);
+    // showDetailsView(d);
+    window.open(`https://www.youtube.com/watch?v=${d.youtube_id}`);
 }
 
 function showDetailsView (d) {
@@ -302,7 +308,7 @@ function getDetailsHTML (d) {
             src="https://www.youtube.com/embed/${d.youtube_id}" 
             frameborder="0" allowfullscreen>
         </iframe>
-        <div class="notes hidden">Notes: ${d.notes}</div>
+        <div class="notes">Notes: ${d.notes}</div>
         <div class="technique_type hidden">Type: ${d.technique_type}</div>
         <div class="rank">Rank: ${d.rank}</div>`
 
@@ -360,4 +366,8 @@ function fillHueAttack (attack_type) {
 function fillHueName (name) {
     var n = all_names.indexOf(name);
     return d3.hsl(n * 14, 0.8, 0.2);
+}
+function fillHueOpening (opening) {
+    var n = all_filters.opening.indexOf(opening);
+    return d3.hsl(n * 75, 0.8, 0.2);
 }
