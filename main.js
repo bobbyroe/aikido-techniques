@@ -47,6 +47,11 @@ function init () {
             waza_data = waza_data.concat(a.waza);
         });
 
+        // TEMP only show techniques with no videos
+        waza_data = waza_data.filter( function (t) {
+            return t.youtube_id === '';
+        });
+
         deriveFilterData(waza_data);
 
         waza_data.forEach( function (d) {

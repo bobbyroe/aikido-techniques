@@ -66,7 +66,7 @@
                     "translation": "",
                     "opening": "irimi",
                     "url": "",
-                    "youtube_id": ""
+                    "youtube_id": "aiS6LPv06Xs"
                 },
                 {
                     "attack_type": "katatetori",
@@ -290,7 +290,7 @@
                     "translation": "",
                     "opening": "switch feet",
                     "url": "",
-                    "youtube_id": ""
+                    "youtube_id": "Gw6hSmZ9WHY&t=8s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -418,7 +418,7 @@
                     "translation": "",
                     "opening": "step offline",
                     "url": "",
-                    "youtube_id": ""
+                    "youtube_id": "1XlhMk5nvGU"
                 },
                 {
                     "attack_type": "katatetori",
@@ -466,7 +466,7 @@
                     "translation": "",
                     "opening": "tenkan",
                     "url": "",
-                    "youtube_id": ""
+                    "youtube_id": "d5rFtHm0LSE"
                 },
                 {
                     "attack_type": "katatetori",
