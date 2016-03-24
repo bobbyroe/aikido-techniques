@@ -21,11 +21,13 @@ var filters = {
     attack_type: 'all',
     technique_type: 'all',
     rank: 'all',
-    opening: 'all'
+    foot_movement: 'all',
+    hand_movement: 'all'
 };
 var all_filters = {}; // all possible filters
 var all_names = []; // needed for total count
 var currently_selected_filter_category = '';
+var currently_selected_data = null;
 var blackground = d3.select("body").append("div")
     .attr("class", "blackground hidden")
     .attr("style", `width:${width}px; height: ${height}px`);
@@ -76,10 +78,10 @@ function init () {
             // .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
             // .attr('fill', function (d) { return fillHueName(d.name); })
             // .attr("stroke", function (d) { return fillHueName(d.name); })
-            .attr('fill', function (d) { return fillHueOpening(d.opening); })
+            .attr('fill', function (d) { return fillHueFeet(d.foot_movement); })
             .attr("stroke", function (d) { 
-                var needs_border = d.youtube_id === "";
-                return fillHueOpening(d.opening, needs_border); 
+                var needs_border = d.hand_movement === "";
+                return fillHueFeet(d.foot_movement, needs_border); 
             })
             .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
 
@@ -121,10 +123,11 @@ function update () {
     // reset
     filtered_data = waza_data.filter( function (w) {
         var attack_match    = filters.attack_type === 'all'    || w.attack_type === filters.attack_type;
-        var technique_match = filters.technique_type === 'all' || w.technique_type === filters.technique_type;
-        var rank_match      = filters.rank === 'all'           || w.rank === filters.rank;
-        var opening_match   = filters.opening === 'all'        || w.opening === filters.opening;
-        return attack_match && technique_match && rank_match && opening_match;
+        // var technique_match = filters.technique_type === 'all' || w.technique_type === filters.technique_type;
+        // var rank_match      = filters.rank === 'all'           || w.rank === filters.rank;
+        var foot_match   = filters.foot_movement === 'all'        || w.foot_movement === filters.foot_movement;
+        var hand_match   = filters.hand_movement === 'all'        || w.hand_movement === filters.hand_movement;
+        return attack_match && foot_match && hand_match;
     });
 
     updateCount(filtered_data.length);
@@ -159,10 +162,10 @@ function update () {
         // .attr("stroke", function (d) { return fillHueAttack(d.attack_type); })
         // .attr('fill', function (d) { return fillHueName(d.name); })
         // .attr("stroke", function (d) { return fillHueName(d.name); })
-        .attr('fill', function (d) { return fillHueOpening(d.opening); })
+        .attr('fill', function (d) { return fillHueFeet(d.foot_movement); })
         .attr("stroke", function (d) { 
             var needs_border = d.youtube_id === "";
-            return fillHueOpening(d.opening, needs_border); 
+            return fillHueFeet(d.opening, needs_border); 
         })
         .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
 
@@ -199,13 +202,15 @@ function deriveFilterData (waza) {
     var attacks = new Set( waza.map( function (t) { return t.attack_type; }) );
     var types = new Set( waza.map( function (t) { return t.technique_type; }) );
     var ranks = new Set( waza.map( function (t) { return t.rank; }) );
-    var openings = new Set( waza.map( function (t) { return t.opening; }) );
+    var feets = new Set( waza.map( function (t) { return t.foot_movement; }) );
+    var hands = new Set( waza.map( function (t) { return t.hand_movement; }) );
     
     all_filters = {
         attack_type: [...attacks].sort(),
-        technique_type: [...types].sort(),
-        rank: [...ranks].sort(),
-        opening: [...openings].sort()
+        // technique_type: [...types].sort(),
+        // rank: [...ranks].sort(),
+        foot_movement: [...feets].sort(),
+        hand_movement: [...hands].sort()
     }
 
     all_names = [...new Set(waza.map( function (t) { return t.name; }))]
@@ -285,6 +290,13 @@ function handleMouseOver (d) {
         .transition().duration(250).ease('cubic-out')
         .attr('r', function (d) { return radius * 2; });
     force.start();
+
+    // tooltip
+    currently_selected_data = d;
+
+    if (currently_selected_data.notes !== '') {
+        document.body.addEventListener('mousemove', handleMouseMove);  
+    } 
 }
 
 function handleMouseOut (d) { 
@@ -293,6 +305,22 @@ function handleMouseOut (d) {
         .transition().duration(250).ease('cubic-out')
         .attr('r', function (d) { return radius; });
     force.start();
+
+    //tooltip
+    document.body.removeEventListener('mousemove', handleMouseMove); 
+    tooltop_div.transition()        
+        .duration(500)      
+        .style("opacity", 0);   
+}
+
+function handleMouseMove (evt) {
+
+    tooltop_div.transition()        
+        .duration(200)      
+        .style("opacity", .9);      
+    tooltop_div.html(currently_selected_data.notes)  
+        .style("left", (evt.pageX - 108) + "px")     
+        .style("top", (evt.pageY + 60) + "px");    
 }
 
 function handleDblClick (d) {
@@ -378,8 +406,8 @@ function fillHueName (name) {
     var n = all_names.indexOf(name);
     return d3.hsl(n * 14, 0.8, 0.2);
 }
-function fillHueOpening (opening, needs_border) {
-    var n = all_filters.opening.indexOf(opening);
+function fillHueFeet (foot_movement, needs_border) {
+    var n = all_filters.foot_movement.indexOf(foot_movement);
     var col = d3.hsl(n * 75, 0.8, 0.2);
 
     if (needs_border === true) {

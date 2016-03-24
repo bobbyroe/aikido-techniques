@@ -16,8 +16,8 @@
                     "rank": "6th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "step offline",
-                    "hand movement": "chudan grab",
+                    "foot_movement": "step offline",
+                    "hand_movement": "chudan grab",
                     "youtube_id": "_MPwI4RmHeU&t=5m12s"
                 },
                 {
@@ -32,8 +32,8 @@
                     "rank": "6th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "chudan grab",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "chudan grab",
                     "youtube_id": "_MPwI4RmHeU&t=7m12s"
                 },
                 {
@@ -48,8 +48,8 @@
                     "rank": "1st kyu",
                     "notes": "reach down diagonally in front of uke and drop",
                     "translation": "",
-                    "foot movement": "turn inside",
-                    "hand movement": "gedan drop",
+                    "foot_movement": "turn inside",
+                    "hand_movement": "gedan drop",
                     "youtube_id": ""
                 },
                 {
@@ -64,8 +64,8 @@
                     "rank": "5th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "none",
-                    "hand movement": "jodan kokyu",
+                    "foot_movement": "none",
+                    "hand_movement": "jodan kokyu",
                     "youtube_id": "aiS6LPv06Xs"
                 },
                 {
@@ -80,8 +80,8 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "back step offline",
-                    "hand movement": "jodan drape",
+                    "foot_movement": "back step offline",
+                    "hand_movement": "jodan drape",
                     "youtube_id": "Kt6ROzf02cI&t=35s"
                 },
                 {
@@ -96,8 +96,8 @@
                     "rank": "3rd kyu",
                     "notes": "step in and swoop uke's arm into yours as you break the grip, then extend past his head",
                     "translation": "",
-                    "foot movement": "step offline",
-                    "hand movement": "chudan grab",
+                    "foot_movement": "step offline",
+                    "hand_movement": "chudan grab",
                     "youtube_id": ""
                 },
                 {
@@ -112,8 +112,8 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "step offline",
-                    "hand movement": "gedan cut",
+                    "foot_movement": "step offline",
+                    "hand_movement": "gedan cut",
                     "youtube_id": "Kt6ROzf02cI"
                 },
                 {
@@ -128,8 +128,8 @@
                     "rank": "4th kyu",
                     "notes": "Tenzan name: jujinage",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "chudan grab",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "chudan grab",
                     "youtube_id": ""
                 },
                 {
@@ -144,8 +144,8 @@
                     "rank": "shodan",
                     "notes": "extend hand down and behind uke, to unballance them",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "gedan drop",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "gedan drop",
                     "youtube_id": ""
                 },
                 {
@@ -160,8 +160,8 @@
                     "rank": "5th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "chudan kokyu",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "chudan kokyu",
                     "youtube_id": ""
                 },
                 {
@@ -176,8 +176,8 @@
                     "rank": "1st kyu",
                     "notes": "like sumiotoshi into a forward roll",
                     "translation": "corner drop",
-                    "foot movement": "switch feet",
-                    "hand movement": "jodan kokyu",
+                    "foot_movement": "switch feet",
+                    "hand_movement": "jodan kokyu",
                     "youtube_id": ""
                 },
                 {
@@ -192,8 +192,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "corner drop",
-                    "foot movement": "tenkan",
-                    "hand movement": "gedan drop",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "gedan drop",
                     "youtube_id": ""
                 },
                 {
@@ -208,8 +208,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "corner drop",
-                    "foot movement": "offline irimi",
-                    "hand movement": "gedan drop",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "gedan drop",
                     "youtube_id": ""
                 },
                 {
@@ -224,8 +224,8 @@
                     "rank": "6th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "gedan cut",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "gedan cut",
                     "youtube_id": "Kt6ROzf02cI&t=5s"
                 },
                 {
@@ -240,8 +240,8 @@
                     "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "step offline",
-                    "hand movement": "chudan grab",
+                    "foot_movement": "step offline",
+                    "hand_movement": "chudan grab",
                     "youtube_id": ""
                 },
                 {
@@ -256,24 +256,8 @@
                     "rank": "2nd kyu",
                     "notes": "cut ukes arm at the elbow, as you step in place, then tenkan",
                     "translation": "",
-                    "foot movement": "switch feet",
-                    "hand movement": "",
-                    "youtube_id": ""
-                },
-                {
-                    "attack_type": "katatetori",
-                    "attack_variation": "gyaku hanmi",
-                    "name": "nikyo",
-                    "name_alt": "",
-                    "japanese": "二教",
-                    "id": 17,
-                    "technique_type": "immobilization",
-                    "variation": "",
-                    "rank": "4th kyu",
-                    "notes": "",
-                    "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "switch feet",
+                    "hand_movement": "jodan atemi",
                     "youtube_id": ""
                 },
                 {
@@ -288,8 +272,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "switch feet",
-                    "hand movement": "",
+                    "foot_movement": "switch feet",
+                    "hand_movement": "chudan grab",
                     "youtube_id": "Gw6hSmZ9WHY&t=8s"
                 },
                 {
@@ -304,8 +288,8 @@
                     "rank": "6th kyu",
                     "notes": "basic",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "gedan cut",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "gedan cut",
                     "youtube_id": ""
                 },
                 {
@@ -320,8 +304,8 @@
                     "rank": "3rd kyu",
                     "notes": "atemi as you step inside and turn, making a chair of your lower back to lower uke over",
                     "translation": "",
-                    "foot movement": "switch feet",
-                    "hand movement": "jodan kokyu",
+                    "foot_movement": "switch feet",
+                    "hand_movement": "jodan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=3m6s"
                 },
                 {
@@ -336,8 +320,8 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "chudan grab",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "chudan grab",
                     "youtube_id": "mjbZDCkIZeU&t=28s"
                 },
                 {
@@ -352,8 +336,8 @@
                     "rank": "1st kyu",
                     "notes": "step to the side and lower the grabbed hand, while bracing uke's elbow with the other",
                     "translation": "",
-                    "foot movement": "step offline",
-                    "hand movement": "chudan grab",
+                    "foot_movement": "step offline",
+                    "hand_movement": "chudan grab",
                     "youtube_id": "mjbZDCkIZeU&t=2m32s"
                 },
                 {
@@ -368,8 +352,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "gedan cut",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "gedan cut",
                     "youtube_id": ""
                 },
                 {
@@ -384,8 +368,8 @@
                     "rank": "5th kyu",
                     "notes": "Yamada style",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "gedan grab",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "gedan grab",
                     "youtube_id": "Kt6ROzf02cI&t=1m"
                 },
                 {
@@ -400,8 +384,8 @@
                     "rank": "*",
                     "notes": "Yamada style",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "gedan grab",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "gedan grab",
                     "youtube_id": "Kt6ROzf02cI&t=1m17s"
                 },
                 {
@@ -416,8 +400,8 @@
                     "rank": "5th kyu",
                     "notes": "tenzan style(?)",
                     "translation": "",
-                    "foot movement": "step offline",
-                    "hand movement": "chudan cut",
+                    "foot_movement": "step offline",
+                    "hand_movement": "chudan cut",
                     "youtube_id": "1XlhMk5nvGU"
                 },
                 {
@@ -432,8 +416,8 @@
                     "rank": "*",
                     "notes": "Yamada style",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "gedan grab",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "gedan grab",
                     "youtube_id": "Kt6ROzf02cI"
                 },
                 {
@@ -448,8 +432,8 @@
                     "rank": "*",
                     "notes": "Yamada style - bring uke around as you drop, then extend past uke's head",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "jodan kokyu",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "jodan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=45s"
                 },
                 {
@@ -464,8 +448,8 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "chudan cut",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "chudan cut",
                     "youtube_id": "d5rFtHm0LSE"
                 },
                 {
@@ -480,8 +464,8 @@
                     "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "gedan kokyu",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "gedan kokyu",
                     "youtube_id": "gqvZ4KzIESw&t=21s"
                 },
                 {
@@ -496,8 +480,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "step offline",
-                    "hand movement": "chudan grab",
+                    "foot_movement": "step offline",
+                    "hand_movement": "chudan grab",
                     "youtube_id": "uEEV-ZzoWgo&t=1m43s"}
                 , 
                 {
@@ -512,8 +496,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenshin",
-                    "hand movement": "gedan drop",
+                    "foot_movement": "tenshin",
+                    "hand_movement": "gedan drop",
                     "youtube_id": "VtjNiohlH5Q"
                 }
             ]
@@ -534,8 +518,8 @@
                     "rank": "5th kyu",
                     "notes": "",
                     "translation": "1st technique",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "_MPwI4RmHeU&t=8s"
                 },
                 {
@@ -550,8 +534,8 @@
                     "rank": "5th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "",
                     "youtube_id": "_MPwI4RmHeU&t=1m50s"
                 },
                 {
@@ -566,8 +550,8 @@
                     "rank": "4th kyu",
                     "notes": "same opening as kaiten nage",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -582,8 +566,8 @@
                     "rank": "3rd kyu",
                     "notes": "ikkyo opening – then switch to sankyo",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -598,8 +582,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg&t=20s"
                 },
                 {
@@ -614,8 +598,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQgt=1m28s"
                 },
                 {
@@ -630,8 +614,8 @@
                     "rank": "shodan",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "",
                     "youtube_id": "Kt6ROzf02cI&t=3m36s"
                 },
                 {
@@ -646,8 +630,8 @@
                     "rank": "shodan",
                     "notes": "from ikkyo",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "Kt6ROzf02cI&t=3m52s"
                 },
                 {
@@ -662,8 +646,8 @@
                     "rank": "5th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -678,8 +662,8 @@
                     "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -694,8 +678,8 @@
                     "rank": "2nd kyu",
                     "notes": "kesa – the diagonal from shoulder to hip (gi line), feign that uke will hit you and cut with other arm",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "z-gM1pFYSmY"
                 },
                 {
@@ -710,8 +694,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi tenkan",
-                    "hand movement": "",
+                    "foot_movement": "irimi tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -726,8 +710,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -742,8 +726,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg&t=6s"
                 },
                 {
@@ -758,8 +742,8 @@
                     "rank": "*",
                     "notes": "opening like ikkyo - then tenkan for wrist / elbow turn-out",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg&t=35s"
                 },
                 {
@@ -774,8 +758,8 @@
                     "rank": "*",
                     "notes": "opening like sankyo ura (with atemi to ribs) - then bring uke around ura and drop",
                     "translation": "",
-                    "foot movement": "irimi tenkan",
-                    "hand movement": "",
+                    "foot_movement": "irimi tenkan",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg&t=56s"
                 },
                 {
@@ -790,8 +774,8 @@
                     "rank": "*",
                     "notes": "step under shomen arm (with elbow atemi to face) _ tenkan and throw",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg&t=1m20s"
                 }
             ]
@@ -812,8 +796,8 @@
                     "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "step inside",
-                    "hand movement": "",
+                    "foot_movement": "step inside",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg"
                 },
                 {
@@ -828,8 +812,8 @@
                     "rank": "3rd kyu",
                     "notes": "2 ways: step in front of uke / step behind uke",
                     "translation": "",
-                    "foot movement": "step inside",
-                    "hand movement": "",
+                    "foot_movement": "step inside",
+                    "hand_movement": "",
                     "youtube_id": "eBXeLB-dMOk&t=17s"
                 },
                 {
@@ -844,8 +828,8 @@
                     "rank": "3rd kyu",
                     "notes": "same entrance as gokyo",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "url": "P9vfsfv3ZQg&t=2m20s",
                     "youtube_id": "eBXeLB-dMOk&t=2m54s"
                 },
@@ -861,8 +845,8 @@
                     "rank": "3rd kyu",
                     "notes": "2 ways: step in front of uke / step behind uke",
                     "translation": "",
-                    "foot movement": "step inside",
-                    "hand movement": "",
+                    "foot_movement": "step inside",
+                    "hand_movement": "",
                     "youtube_id": "eBXeLB-dMOkt=5m24s"
                 },
                 {
@@ -877,8 +861,8 @@
                     "rank": "3rd kyu",
                     "notes": "same entrance as gokyo",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "eBXeLB-dMOk&t=7m15s"
                 },
                 {
@@ -893,8 +877,8 @@
                     "rank": "3rd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg"
                 },
                 {
@@ -909,8 +893,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "step inside",
-                    "hand movement": "",
+                    "foot_movement": "step inside",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg"
                 },
                 {
@@ -925,8 +909,8 @@
                     "rank": "*",
                     "notes": "step back and cut",
                     "translation": "",
-                    "foot movement": "tenshin",
-                    "hand movement": "",
+                    "foot_movement": "tenshin",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg"
                 },
                 {
@@ -941,8 +925,8 @@
                     "rank": "*",
                     "notes": "direct entry: double-cut like",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg&t=1m46s"
                 },
                 {
@@ -957,8 +941,8 @@
                     "rank": "*",
                     "notes": "gokyo-like entry",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg&t=1m56s"
                 },
                 {
@@ -973,8 +957,8 @@
                     "rank": "*",
                     "notes": "gokyo-like entry",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg"
                 },
                 {
@@ -989,8 +973,8 @@
                     "rank": "*",
                     "notes": "enter and blend letting uke's arm pass over you",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "P9vfsfv3ZQg"
                 },
                 {
@@ -1005,8 +989,8 @@
                     "rank": "shodan",
                     "notes": "based on shihonage",
                     "translation": "",
-                    "foot movement": "step inside", 
-                    "hand movement": "",
+                    "foot_movement": "step inside", 
+                    "hand_movement": "",
                     "youtube_id": "Kt6ROzf02cI&t=4m8s"
                 },
                 {
@@ -1021,8 +1005,8 @@
                     "rank": "shodan",
                     "notes": "direct entry – arm around uke",
                     "translation": "",
-                    "foot movement": "irimi", 
-                    "hand movement": "",
+                    "foot_movement": "irimi", 
+                    "hand_movement": "",
                     "youtube_id": "Kt6ROzf02cI&t=4m25s"
                 }
             ]
@@ -1043,8 +1027,8 @@
                     "rank": "6th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1059,8 +1043,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1075,8 +1059,8 @@
                     "rank": "*",
                     "notes": "enter directly in with a swooping move",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1091,8 +1075,8 @@
                     "rank": "3rd kyu",
                     "notes": "2 variations: tenkan jo, tenkan gae",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1107,8 +1091,8 @@
                     "rank": "3rd kyu",
                     "notes": "enter directly in with a swooping move",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
 
@@ -1124,8 +1108,8 @@
                     "rank": "2nd kyu",
                     "notes": "apply nikyo directly to 'ai-hanmi arm",
                     "translation": "",
-                    "foot movement": "switch feet",
-                    "hand movement": "",
+                    "foot_movement": "switch feet",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1140,8 +1124,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1156,8 +1140,8 @@
                     "rank": "*",
                     "notes": "turn hand up and uke grabs",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1172,8 +1156,8 @@
                     "rank": "*",
                     "notes": "turn hand up and uke grabs",
                     "translation": "",
-                    "foot movement": "irimi kaiten",
-                    "hand movement": "",
+                    "foot_movement": "irimi kaiten",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=1m35s"
                 },
                 {
@@ -1188,8 +1172,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1204,8 +1188,8 @@
                     "rank": "3rd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1220,8 +1204,8 @@
                     "rank": "3rd kyu",
                     "notes": "based on ikkyo",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1236,8 +1220,8 @@
                     "rank": "*",
                     "notes": "tenkan and project",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1252,8 +1236,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "drop your arm and enter omote, then raise your arm over ukes head",
-                    "foot movement": "irimi tenkan",
-                    "hand movement": "",
+                    "foot_movement": "irimi tenkan",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=1m11s"
                 },
                 {
@@ -1268,8 +1252,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "drop and swoop your arm outside",
-                    "foot movement": "step offline",
-                    "hand movement": "",
+                    "foot_movement": "step offline",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=1m25s"
                 }
             ]
@@ -1290,8 +1274,8 @@
                     "rank": "5th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1306,8 +1290,8 @@
                     "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1322,8 +1306,8 @@
                     "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1338,8 +1322,8 @@
                     "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenkan",
-                    "hand movement": "",
+                    "foot_movement": "tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1354,8 +1338,8 @@
                     "rank": "3rd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
 
@@ -1371,8 +1355,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "step back as you swoop ukes tsuki up and into ikkyo",
-                    "foot movement": "tenshin",
-                    "hand movement": "",
+                    "foot_movement": "tenshin",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1387,8 +1371,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "step in and kaiten / extend past uke's head",
-                    "foot movement": "irimi kaiten",
-                    "hand movement": "",
+                    "foot_movement": "irimi kaiten",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1403,8 +1387,8 @@
                     "rank": "1st kyu",
                     "notes": "double-cut",
                     "translation": "",
-                    "foot movement": "step offline",
-                    "hand movement": "",
+                    "foot_movement": "step offline",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1419,8 +1403,8 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi tenkan",
-                    "hand movement": "",
+                    "foot_movement": "irimi tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1435,8 +1419,8 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1451,8 +1435,8 @@
                     "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1467,8 +1451,8 @@
                     "rank": "*",
                     "notes": "step in and extend arm under the tsuki as you drop down",
                     "translation": "",
-                    "foot movement": "step inside",
-                    "hand movement": "",
+                    "foot_movement": "step inside",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1483,8 +1467,8 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi tenkan",
-                    "hand movement": "",
+                    "foot_movement": "irimi tenkan",
+                    "hand_movement": "",
                     "youtube_id": ""
                 }
             ]
@@ -1505,8 +1489,8 @@
                     "rank": "5th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1521,8 +1505,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenshin",
-                    "hand movement": "",
+                    "foot_movement": "tenshin",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1537,8 +1521,8 @@
                     "rank": "3rd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "offline irimi",
-                    "hand movement": "",
+                    "foot_movement": "offline irimi",
+                    "hand_movement": "",
                     "youtube_id": ""
                 },
                 {
@@ -1553,8 +1537,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "catch the forward hand like soto as you move behind and raise the other hand",
-                    "foot movement": "irimi tenkan",
-                    "hand movement": "",
+                    "foot_movement": "irimi tenkan",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=1m55s"
                 },
                 {
@@ -1569,8 +1553,8 @@
                     "rank": "*",
                     "notes": "receive uke and project forward",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=2m11s"
                 },
                 {
@@ -1585,8 +1569,8 @@
                     "rank": "*",
                     "notes": "enter in front, kneel down and cut",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=2m21s"
                 },
                 {
@@ -1601,8 +1585,8 @@
                     "rank": "*",
                     "notes": "bring uke around your back as you step in front and drop",
                     "translation": "",
-                    "foot movement": "irimi",
-                    "hand movement": "",
+                    "foot_movement": "irimi",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=2m31s"
                 },
                 {
@@ -1617,8 +1601,8 @@
                     "rank": "*",
                     "notes": "bring uke around and project past his head",
                     "translation": "",
-                    "foot movement": "irimi tenkan",
-                    "hand movement": "",
+                    "foot_movement": "irimi tenkan",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=2m41s"
                 },
                 {
@@ -1633,8 +1617,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "tenshin",
-                    "hand movement": "",
+                    "foot_movement": "tenshin",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=3m00s"
                 },
                 {
@@ -1649,8 +1633,8 @@
                     "rank": "*",
                     "notes": "",
                     "translation": "",
-                    "foot movement": "step offline",
-                    "hand movement": "",
+                    "foot_movement": "step offline",
+                    "hand_movement": "",
                     "youtube_id": "NmIuiuaREpk&t=3m25s"
                 }
             ]

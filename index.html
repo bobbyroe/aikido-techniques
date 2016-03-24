@@ -4,6 +4,9 @@
 	<meta charset='UTF-8'/>
 	<title>AIKIDO!!!</title> 
 	<style type="text/css">
+		html {
+			box-sizing: border-box;
+		}
 		body {
 			background-color: #000;
 			font: 14px sans-serif;
@@ -67,13 +70,28 @@
 		.tooltip {	
 		    position: absolute;			
 		    text-align: left;			
-		    width: auto;					
-		    height: 28px;					
-		    padding: 5px;				
+		    width: 200px;					
+		    height: 100px;					
+		    padding: 15px;				
 		    font: 12px sans-serif;		
-		    background: rgba(0, 0, 0, 0.8);	
+		    background: rgba(255, 255, 255, 0.9);	
 		    border: 0px;				
-		    pointer-events: none;			
+		    pointer-events: none;
+		    color: #202020;	
+		    font-size: 14px;
+		    border-radius: 8px
+		}
+
+		.tooltip:before {
+			content: "";
+  			position: absolute;
+  			top: -20px;
+		    left: 100px;
+			width: 0;
+			height: 0;
+			border-left: 20px solid transparent;
+			border-right: 20px solid transparent;
+			border-bottom: 20px solid rgba(255, 255, 255, 0.9);
 		}
 
 		/* details */
