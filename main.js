@@ -40,10 +40,10 @@ var tooltop_div = d3.select("body").append("div")
     .style("opacity", 0);
 
 function init () { 
-    d3.json("techniques.js", function (error, data) {
+    d3.json("basic_waza.js", function (error, data) {
 
         if (error) return console.warn(error);
-        
+
         // combine all techniques to a single array
         data.aikido.forEach( function (a) {
             waza_data = waza_data.concat(a.waza);
@@ -79,11 +79,8 @@ function init () {
             // .attr('fill', function (d) { return fillHueName(d.name); })
             // .attr("stroke", function (d) { return fillHueName(d.name); })
             .attr('fill', function (d) { return fillHueFeet(d.foot_movement); })
-            .attr("stroke", function (d) { 
-                var needs_border = d.hand_movement === "";
-                return fillHueFeet(d.foot_movement, needs_border); 
-            })
-            .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
+            .attr("stroke", function (d) { return d3.hsl(0, 0.8, 1.0); })
+            .attr('stroke-width', function (d) { return (d.youtube_id === "") ? 4 : 0; });
 
         var text = gs.append('text')
             .attr("text-anchor", "middle")
@@ -163,11 +160,8 @@ function update () {
         // .attr('fill', function (d) { return fillHueName(d.name); })
         // .attr("stroke", function (d) { return fillHueName(d.name); })
         .attr('fill', function (d) { return fillHueFeet(d.foot_movement); })
-        .attr("stroke", function (d) { 
-            var needs_border = d.youtube_id === "";
-            return fillHueFeet(d.opening, needs_border); 
-        })
-        .attr('stroke-width', function (d) { return (d.rank !== '*') ? 4 : 0; });
+        .attr("stroke", function (d) { return d3.hsl(0, 0.8, 1.0); })
+        .attr('stroke-width', function (d) { return (d.youtube_id === "") ? 4 : 0; });
 
     var text = gs.append('text')
         .attr("text-anchor", "middle")
@@ -207,7 +201,7 @@ function deriveFilterData (waza) {
     
     all_filters = {
         attack_type: [...attacks].sort(),
-        // technique_type: [...types].sort(),
+        technique_type: [...types].sort(),
         // rank: [...ranks].sort(),
         foot_movement: [...feets].sort(),
         hand_movement: [...hands].sort()
@@ -246,9 +240,9 @@ function drawFilters (data) {
         var is_hidden = len === 0;
 
         return `<li class="filter ${is_disabled?"disabled":""}">
-            <input type="radio" id="${i}" ${is_checked?"checked":""}
+            <input type="radio" id="${k + i}" ${is_checked?"checked":""}
                 name="${k}" value="${a}" ${is_disabled?"disabled":""}/>
-            <label for="${i}">${a} 
+            <label for="${k + i}">${a} 
                 <span class="filter_count ${is_hidden?"hidden":""}">(${len})</span>
             </label>
         </li>`
@@ -313,12 +307,11 @@ function handleMouseOut (d) {
         .style("opacity", 0);   
 }
 
-function handleMouseMove (evt) {
-
+function handleMouseMove (evt) {    
     tooltop_div.transition()        
         .duration(200)      
         .style("opacity", .9);      
-    tooltop_div.html(currently_selected_data.notes)  
+    tooltop_div.html(currently_selected_data.notes + ", " + currently_selected_data.foot_movement)  
         .style("left", (evt.pageX - 108) + "px")     
         .style("top", (evt.pageY + 60) + "px");    
 }
@@ -360,7 +353,7 @@ function capitalize (str) {
 }
 function getSymbol (d) { 
     var symbol = '⤴︎'; // irimi, offline irimi, step offline, switch feet, tenkan
-    switch (d.opening) {
+    switch (d.foot_movement) {
     case 'irimi':
         symbol = '↑';
         break;
@@ -406,12 +399,8 @@ function fillHueName (name) {
     var n = all_names.indexOf(name);
     return d3.hsl(n * 14, 0.8, 0.2);
 }
-function fillHueFeet (foot_movement, needs_border) {
+function fillHueFeet (foot_movement) {
     var n = all_filters.foot_movement.indexOf(foot_movement);
-    var col = d3.hsl(n * 75, 0.8, 0.2);
-
-    if (needs_border === true) {
-        col = d3.hsl(0, 0, 1); 
-    }
+    var col = d3.hsl(n * 25, 0.8, 0.2);
     return col;
 }
