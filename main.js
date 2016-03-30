@@ -39,13 +39,18 @@ var tooltop_div = d3.select("body").append("div")
     .attr("class", "tooltip")               
     .style("opacity", 0);
 
-function init () { 
+function init (more_waza_data) { 
     d3.json("basic_waza.js", function (error, data) {
 
         if (error) return console.warn(error);
 
         // combine all techniques to a single array
         data.aikido.forEach( function (a) {
+            waza_data = waza_data.concat(a.waza);
+        });
+
+        // add in the more_waza data ...
+        more_waza_data.aikido.forEach( function (a) {
             waza_data = waza_data.concat(a.waza);
         });
 
@@ -120,11 +125,11 @@ function update () {
     // reset
     filtered_data = waza_data.filter( function (w) {
         var attack_match    = filters.attack_type === 'all'    || w.attack_type === filters.attack_type;
-        // var technique_match = filters.technique_type === 'all' || w.technique_type === filters.technique_type;
-        // var rank_match      = filters.rank === 'all'           || w.rank === filters.rank;
-        var foot_match   = filters.foot_movement === 'all'        || w.foot_movement === filters.foot_movement;
-        var hand_match   = filters.hand_movement === 'all'        || w.hand_movement === filters.hand_movement;
-        return attack_match && foot_match && hand_match;
+        var technique_match = filters.technique_type === 'all' || w.technique_type === filters.technique_type;
+        var rank_match      = filters.rank === 'all'           || w.rank === filters.rank;
+        var foot_match      = filters.foot_movement === 'all'  || w.foot_movement === filters.foot_movement;
+        var hand_match      = filters.hand_movement === 'all'  || w.hand_movement === filters.hand_movement;
+        return attack_match && technique_match && rank_match && foot_match && hand_match;
     });
 
     updateCount(filtered_data.length);
@@ -202,7 +207,7 @@ function deriveFilterData (waza) {
     all_filters = {
         attack_type: [...attacks].sort(),
         technique_type: [...types].sort(),
-        // rank: [...ranks].sort(),
+        rank: [...ranks].sort(),
         foot_movement: [...feets].sort(),
         hand_movement: [...hands].sort()
     }
@@ -263,6 +268,7 @@ function onClick (evt) {
     if (class_name === 'closeX') {
         hideDetailsView();
     }
+    console.log(evt.target.__data__);
 }
 
 function onChange (evt) {
@@ -275,7 +281,8 @@ function onChange (evt) {
 
 document.body.addEventListener('click', onClick);
 document.body.addEventListener('change', onChange);
-init();
+
+ d3.json("more_waza.js", function (error, data) { init(data); } );
 
 // -------------------------------------------------------------------------- //
 function handleMouseOver (d) {
@@ -310,10 +317,18 @@ function handleMouseOut (d) {
 function handleMouseMove (evt) {    
     tooltop_div.transition()        
         .duration(200)      
-        .style("opacity", .9);      
-    tooltop_div.html(currently_selected_data.notes + ", " + currently_selected_data.foot_movement)  
+        .style("opacity", .9);
+
+    tooltop_div.html( getTooltipHTML() )  
         .style("left", (evt.pageX - 108) + "px")     
         .style("top", (evt.pageY + 60) + "px");    
+}
+
+function getTooltipHTML () {
+    var markup = currently_selected_data.notes + '<br><br>' +
+        currently_selected_data.foot_movement + '<br>' +
+        currently_selected_data.hand_movement;
+    return markup;
 }
 
 function handleDblClick (d) {
@@ -371,6 +386,9 @@ function getSymbol (d) {
         break;
     case 'irimi tenkan':
         symbol = '↑⟲';
+        break;
+    case 'none':
+        symbol = '–';
         break;
     default:
         symbol = '?';

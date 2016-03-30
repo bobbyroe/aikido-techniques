@@ -82,23 +82,7 @@
                     "translation": "",
                     "foot_movement": "offline irimi",
                     "hand_movement": "gedan drop",
-                    "youtube_id": ""
-                },
-                {
-                    "attack_type": "katatetori",
-                    "attack_variation": "gyaku hanmi",
-                    "name": "kokyunage",
-                    "name_alt": "",
-                    "japanese": "呼吸投げ",
-                    "id": 11,
-                    "technique_type": "projection",
-                    "variation": "",
-                    "rank": "1st kyu",
-                    "notes": "like sumiotoshi into a forward roll",
-                    "translation": "corner drop",
-                    "foot_movement": "switch feet",
-                    "hand_movement": "jodan kokyu",
-                    "youtube_id": ""
+                    "youtube_id": "KyRnlnk4dU4"
                 },
                 {
                     "attack_type": "katatetori",
@@ -108,13 +92,13 @@
                     "japanese": "角落し",
                     "id": 12,
                     "technique_type": "projection",
-                    "variation": "",
+                    "variation": "tenkan",
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "corner drop",
-                    "foot_movement": "tenkan",
+                    "foot_movement": "step offline",
                     "hand_movement": "gedan drop",
-                    "youtube_id": ""
+                    "youtube_id": "zDgjNFsVq6Y&t=8s"
                 },
                 {
                     "attack_type": "katatetori",
@@ -124,13 +108,13 @@
                     "japanese": "角落し",
                     "id": 13,
                     "technique_type": "projection",
-                    "variation": "",
+                    "variation": "offline irimi",
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "corner drop",
-                    "foot_movement": "offline irimi",
+                    "foot_movement": "step offline",
                     "hand_movement": "gedan drop",
-                    "youtube_id": ""
+                    "youtube_id": "m9qyncOTzRg"
                 },
                 {
                     "attack_type": "katatetori",
@@ -146,7 +130,7 @@
                     "translation": "",
                     "foot_movement": "switch feet",
                     "hand_movement": "jodan atemi",
-                    "youtube_id": ""
+                    "youtube_id": "-xj11RYo7Vg"
                 },
                 {
                     "attack_type": "katatetori",
