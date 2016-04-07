@@ -161,7 +161,7 @@
                     "notes": "Yamada style - bring uke around as you drop, then extend past uke's head",
                     "translation": "",
                     "foot_movement": "step offline",
-                    "hand_movement": "jodan kokyu",
+                    "hand_movement": "chudan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=45s"
                 },
                 {

@@ -128,7 +128,7 @@
                     "rank": "2nd kyu",
                     "notes": "cut ukes arm at the elbow, as you step in place, then tenkan",
                     "translation": "",
-                    "foot_movement": "switch feet",
+                    "foot_movement": "inside step",
                     "hand_movement": "jodan atemi",
                     "youtube_id": "-xj11RYo7Vg"
                 },
@@ -160,7 +160,7 @@
                     "rank": "3rd kyu",
                     "notes": "atemi as you step inside and turn, making a chair of your lower back to lower uke over",
                     "translation": "",
-                    "foot_movement": "switch feet",
+                    "foot_movement": "inside step",
                     "hand_movement": "jodan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=3m6s"
                 },
@@ -225,7 +225,7 @@
                     "notes": "Yamada style",
                     "translation": "",
                     "foot_movement": "step offline",
-                    "hand_movement": "gedan grab",
+                    "hand_movement": "chudan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=1m"
                 },
                 {
@@ -241,7 +241,7 @@
                     "notes": "Yamada style",
                     "translation": "",
                     "foot_movement": "step offline",
-                    "hand_movement": "gedan grab",
+                    "hand_movement": "chudan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=1m17s"
                 },
                 {
@@ -257,7 +257,7 @@
                     "notes": "Yamada style",
                     "translation": "",
                     "foot_movement": "step offline",
-                    "hand_movement": "gedan grab",
+                    "hand_movement": "chudan kokyu",
                     "youtube_id": "Kt6ROzf02cI"
                 },
                 {
@@ -273,7 +273,7 @@
                     "notes": "like tenchi but an arm pin",
                     "translation": "",
                     "foot_movement": "step offline",
-                    "hand_movement": "chudan cut",
+                    "hand_movement": "chudan kokyu",
                     "youtube_id": "d5rFtHm0LSE"
                 },
                 {
