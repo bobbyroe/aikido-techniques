@@ -16,7 +16,7 @@
                     "rank": "6th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan grab",
                     "youtube_id": "_MPwI4RmHeU&t=5m12s"
                 },
@@ -32,7 +32,7 @@
                     "rank": "6th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan grab",
                     "youtube_id": "_MPwI4RmHeU&t=7m12s"
                 },
@@ -64,7 +64,7 @@
                     "rank": "4th kyu",
                     "notes": "Tenzan name: jujinage",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan grab",
                     "youtube_id": "X5mL7Fy3i6w&t=52s"
                 },
@@ -80,7 +80,7 @@
                     "rank": "5th kyu",
                     "notes": "into forward roll",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan kokyu",
                     "youtube_id": "LJzwh22prCo"
                 },
@@ -96,7 +96,7 @@
                     "rank": "6th kyu",
                     "notes": "jodan",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "gedan cut",
                     "youtube_id": "Kt6ROzf02cI&t=5s"
                 },
@@ -112,7 +112,7 @@
                     "rank": "4th kyu",
                     "notes": "",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "jodan atemi",
                     "youtube_id": "ummLn3M_Sk8&t=1m7s"
                 },
@@ -128,7 +128,7 @@
                     "rank": "6th kyu",
                     "notes": "basic",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "gedan cut",
                     "youtube_id": "O5ozbOKbl68"
                 },
@@ -144,7 +144,7 @@
                     "rank": "5th kyu",
                     "notes": "tenzan style(?)",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan cut",
                     "youtube_id": "1XlhMk5nvGU"
                 },
@@ -160,7 +160,7 @@
                     "rank": "*",
                     "notes": "Yamada style - bring uke around as you drop, then extend past uke's head",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=45s"
                 },
@@ -174,9 +174,25 @@
                     "technique_type": "projection",
                     "direction": "",
                     "rank": "4th kyu",
-                    "notes": "offline irimi",
+                    "notes": "irimi tenkan",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
+                    "hand_movement": "gedan kokyu",
+                    "youtube_id": "gqvZ4KzIESw&t=21s"
+                },
+                {
+                    "attack_type": "katatetori",
+                    "attack_variation": "gyaku hanmi",
+                    "name": "katagatame",
+                    "name_alt": "",
+                    "japanese": "回転投げ",
+                    "id": 33,
+                    "technique_type": "projection",
+                    "direction": "",
+                    "rank": "4th kyu",
+                    "notes": "irimi tenkan",
+                    "translation": "",
+                    "foot_movement": "offline step",
                     "hand_movement": "gedan kokyu",
                     "youtube_id": "gqvZ4KzIESw&t=21s"
                 }

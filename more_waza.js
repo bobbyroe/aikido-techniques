@@ -17,7 +17,7 @@
                     "notes": "reach down diagonally in front of uke and drop",
                     "translation": "",
                     "foot_movement": "turn inside",
-                    "hand_movement": "gedan drop",
+                    "hand_movement": "gedan kokyu",
                     "youtube_id": ""
                 },
                 {
@@ -32,8 +32,8 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot_movement": "back step offline",
-                    "hand_movement": "jodan drape",
+                    "foot_movement": "offline back step",
+                    "hand_movement": "jodan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=35s"
                 },
                 {
@@ -46,9 +46,9 @@
                     "technique_type": "projection",
                     "direction": "ki no nagare",
                     "rank": "3rd kyu",
-                    "notes": "quickly extend past uke head",
+                    "notes": "direct entry: quickly extend past uke head",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "jodan kokyu",
                     "youtube_id": ""
                 },
@@ -64,7 +64,7 @@
                     "rank": "1st kyu",
                     "notes": "double cut",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "gedan cut",
                     "youtube_id": "Kt6ROzf02cI"
                 },
@@ -72,7 +72,7 @@
                     "attack_type": "katatetori",
                     "attack_variation": "gyaku hanmi",
                     "name": "kokyunage",
-                    "name_alt": "",
+                    "name_alt": "sumiotoshi-like",
                     "japanese": "呼吸投げ",
                     "id": 9,
                     "technique_type": "projection",
@@ -80,8 +80,8 @@
                     "rank": "1st kyu",
                     "notes": "extend hand down and behind uke, to unballance them into back roll / breakfall",
                     "translation": "",
-                    "foot_movement": "step offline",
-                    "hand_movement": "gedan drop",
+                    "foot_movement": "offline step",
+                    "hand_movement": "gedan kokyu",
                     "youtube_id": "KyRnlnk4dU4"
                 },
                 {
@@ -96,8 +96,8 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "corner drop",
-                    "foot_movement": "step offline",
-                    "hand_movement": "gedan drop",
+                    "foot_movement": "offline step",
+                    "hand_movement": "chudan kokyu",
                     "youtube_id": "zDgjNFsVq6Y&t=8s"
                 },
                 {
@@ -108,12 +108,12 @@
                     "japanese": "角落し",
                     "id": 13,
                     "technique_type": "projection",
-                    "direction": "offline irimi",
+                    "direction": "irimi",
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "corner drop",
-                    "foot_movement": "step offline",
-                    "hand_movement": "gedan drop",
+                    "foot_movement": "offline step",
+                    "hand_movement": "gedan kokyu",
                     "youtube_id": "m9qyncOTzRg"
                 },
                 {
@@ -145,7 +145,7 @@
                     "notes": "",
                     "translation": "",
                     "foot_movement": "tenshin",
-                    "hand_movement": "chudan grab",
+                    "hand_movement": "jodan grab",
                     "youtube_id": "Gw6hSmZ9WHY&t=8s"
                 },
                 {
@@ -176,8 +176,8 @@
                     "rank": "1st kyu",
                     "notes": "swopping move",
                     "translation": "",
-                    "foot_movement": "step offline",
-                    "hand_movement": "chudan grab",
+                    "foot_movement": "offline step",
+                    "hand_movement": "jodan grab",
                     "youtube_id": "mjbZDCkIZeU&t=28s"
                 },
                 {
@@ -192,7 +192,7 @@
                     "rank": "1st kyu",
                     "notes": "step to the side and lower the grabbed hand, while bracing uke's elbow with the other",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan grab",
                     "youtube_id": "mjbZDCkIZeU&t=2m32s"
                 },
@@ -208,7 +208,7 @@
                     "rank": "2nd kyu",
                     "notes": "",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "gedan cut",
                     "youtube_id": ""
                 },
@@ -224,7 +224,7 @@
                     "rank": "5th kyu",
                     "notes": "Yamada style",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=1m"
                 },
@@ -240,7 +240,7 @@
                     "rank": "1st kyu",
                     "notes": "Yamada style",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=1m17s"
                 },
@@ -256,7 +256,7 @@
                     "rank": "1st kyu",
                     "notes": "Yamada style",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan kokyu",
                     "youtube_id": "Kt6ROzf02cI"
                 },
@@ -270,9 +270,25 @@
                     "technique_type": "immobilization",
                     "direction": "tenkan",
                     "rank": "1st kyu",
-                    "notes": "like tenchi but an arm pin",
+                    "notes": "like kaiten but an arm pin",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
+                    "hand_movement": "chudan kokyu",
+                    "youtube_id": "d5rFtHm0LSE"
+                },
+                {
+                    "attack_type": "katatetori",
+                    "attack_variation": "gyaku hanmi",
+                    "name": "kaitennage",
+                    "name_alt": "",
+                    "japanese": "?",
+                    "id": 34,
+                    "technique_type": "immobilization",
+                    "direction": "tenkan",
+                    "rank": "1st kyu",
+                    "notes": "",
+                    "translation": "",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan kokyu",
                     "youtube_id": "d5rFtHm0LSE"
                 },
@@ -288,7 +304,7 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot_movement": "step offline",
+                    "foot_movement": "offline step",
                     "hand_movement": "chudan grab",
                     "youtube_id": "uEEV-ZzoWgo&t=1m43s"
                 },
@@ -305,7 +321,7 @@
                     "notes": "",
                     "translation": "",
                     "foot_movement": "tenshin",
-                    "hand_movement": "gedan drop",
+                    "hand_movement": "gedan kokyu",
                     "youtube_id": "VtjNiohlH5Q"
                 },
                 {
@@ -322,6 +338,70 @@
                     "translation": "",
                     "foot_movement": "tenshin",
                     "hand_movement": "gedan cut",
+                    "youtube_id": ""
+                },
+                {
+                    "attack_type": "katatetori",
+                    "attack_variation": "gyaku hanmi",
+                    "name": "iriminage",
+                    "name_alt": "",
+                    "japanese": "?落し",
+                    "id": 35,
+                    "technique_type": "projection",
+                    "direction": "",
+                    "rank": "1st kyu",
+                    "notes": "step back and cut at uke's elbow then enter behind",
+                    "translation": "",
+                    "foot_movement": "tenshin",
+                    "hand_movement": "gedan cut",
+                    "youtube_id": ""
+                },
+                {
+                    "attack_type": "katatetori",
+                    "attack_variation": "gyaku hanmi",
+                    "name": "shihonage",
+                    "name_alt": "",
+                    "japanese": "?落し",
+                    "id": 36,
+                    "technique_type": "projection",
+                    "direction": "",
+                    "rank": "1st kyu",
+                    "notes": "step back and cut at uke's elbow",
+                    "translation": "",
+                    "foot_movement": "tenshin",
+                    "hand_movement": "jodan cut",
+                    "youtube_id": ""
+                },
+                {
+                    "attack_type": "katatetori",
+                    "attack_variation": "gyaku hanmi",
+                    "name": "sankyo",
+                    "name_alt": "swooping move",
+                    "japanese": "一教",
+                    "id": 37,
+                    "technique_type": "immobilization",
+                    "direction": "omote",
+                    "rank": "5th kyu",
+                    "notes": "open with ikkyo then get sankyo grip",
+                    "translation": "",
+                    "foot_movement": "offline step",
+                    "hand_movement": "chudan cut",
+                    "youtube_id": "1XlhMk5nvGU"
+                },
+                {
+                    "attack_type": "katatetori",
+                    "attack_variation": "gyaku hanmi",
+                    "name": "sankyo",
+                    "name_alt": "Nishio's Choke",
+                    "japanese": "一教",
+                    "id": 37,
+                    "technique_type": "immobilization",
+                    "direction": "omote",
+                    "rank": "1st dan",
+                    "notes": "starts like kaitennage then spin uke for a choke",
+                    "translation": "",
+                    "foot_movement": "offline step",
+                    "hand_movement": "chudan cut",
                     "youtube_id": ""
                 }
             ]
