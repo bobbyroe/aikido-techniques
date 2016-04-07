@@ -1,142 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset='UTF-8'/>
-	<title>AIKIDO!!!</title> 
-	<style type="text/css">
-		html {
-			box-sizing: border-box;
-		}
-		body {
-			background-color: #000;
-			font: 14px sans-serif;
-			margin: 0;
-			padding: 0;
-			color: #e0e0e0;
-		}
-		svg {
-			position: absolute;
-			left: 200px;
-		}
-		g {
-			cursor: pointer;
-		}
-		text {
-			pointer-events: none;
-		}
-		.filters {
-			position: fixed;
-			left:0px;
-			height: 100%;
-			width: 200px;
-			background-color: rgba(255, 255, 255, 0.1);
-			overflow: auto;
-		}
-		.type {
-			font-size: 16px;
-			background-color: rgba(255, 255, 255, 0.1);
-		}
-		.count {
-			position: fixed;
-			right:0px;
-			height: 100px;
-			width: 100px;
-			text-align: right;
-			font-size: 64px;
-			font-weight: bold;
-			color: rgba(255, 255, 255, 0.2);
-			padding: 0px 10px 0 0;
-		}
-		ul {
-			list-style: none;
-			padding-left: 0;
-		}
-		li {
-			cursor: pointer;
-			display: block;
-			padding: 0px 5px 7px 20px;
-		}
-		.filter_count {
-			padding-left: 10px;
-			font-size: 12px;
-			color: #888;
-		}
-		.hidden {
-			display: none;
-		}
-		.filter.disabled {
-			color: #666;
-		}
-		label:hover {
-			color:#00CCFF;
-		}
-		.tooltip {	
-		    position: absolute;			
-		    text-align: left;			
-		    width: 200px;					
-		    height: 100px;					
-		    padding: 15px;				
-		    font: 12px sans-serif;		
-		    background: rgba(255, 255, 255, 0.9);	
-		    border: 0px;				
-		    pointer-events: none;
-		    color: #202020;	
-		    font-size: 14px;
-		    border-radius: 8px
-		}
+<meta charset="utf-8">
+<style>
+	.node circle {
+		cursor: pointer;
+		fill: #fff;
+		stroke: steelblue;
+		stroke-width: 3px;
+	}
 
-		.tooltip:before {
-			content: "";
-  			position: absolute;
-  			top: -20px;
-		    left: 100px;
-			width: 0;
-			height: 0;
-			border-left: 20px solid transparent;
-			border-right: 20px solid transparent;
-			border-bottom: 20px solid rgba(255, 255, 255, 0.9);
-		}
+	.node .name, .node .type {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-size: 22px;
+		fill: #000;
+	}
+	.node .type {
+		font-size: 16px;
+		fill: #999;
+	}
 
-		/* details */
-		.blackground {
-			position: absolute;
-			left: 200px;
-			background: rgba(0, 0, 0, 0.7);	
-		}
-		.details {
-			position: absolute;
-			left: 400px;
-			top: 200px;
-			background: rgba(255, 255, 255, 0.8);
-			border-radius: 10px;
-			padding: 20px;
-			color: #202020;
-		}
-		.closeX {
-			position:relative;
-			display: inline-block;
-			background: rgba(0, 0, 0, 0.5);
-			width: 15px;
-			height: 15px;
-			padding: 7px;
-			text-align: center;
-			cursor: pointer;
-		}
-		.closeX:hover {
-			color: #AAA;
-		}
-		.technique_name {
-			
-		}
-		.notes, .technique_type, .rank {
-			max-width: 420px;
-			padding-top: 10px;
-		}
-		
-	</style> 
-</head> 
+	path.link {
+		fill: none;
+		stroke: #ccc;
+		stroke-width: 1.5px;
+	}
+</style>
 <body>
-<div class="filters"><ul></ul></div>
-<script src="d3.js"></script>
-<script src="main.js"></script>
+	<script src="libs/d3.v3.min.js"></script>
+	<script src="libs/d3.layout.js"></script>
+	<script src="main.js"></script>
+</body> 
 </html>
