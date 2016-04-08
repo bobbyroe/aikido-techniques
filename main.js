@@ -1,12 +1,8 @@
-// ESPRIMA STUFF
-var json_tree;
-// var js_tree;
-function getSourceScript() {
-    var request = new XMLHttpRequest();
 
+function getSourceData() {
+    var request = new XMLHttpRequest();
     function dataLoaded(evt) {
-        json_tree = evt.target.response;
-        initialize();
+        initialize(evt.target.response);
     }
 
     function transferFailed(err) {
@@ -14,15 +10,50 @@ function getSourceScript() {
     }
     request.addEventListener("load", dataLoaded, false);
     request.addEventListener("error", transferFailed, false);
-    request.open('GET', 'tree.json');
+    request.open('GET', 'waza.js');
     request.send(null);
 }
 
-getSourceScript();
+getSourceData();
 
-function initialize() {
+function initialize (json) {
 
-    initTreeGraph(json_tree);
+    // parse json + create a tree
+    var data = JSON.parse(json);
+    var waza = data.aikido[0].waza;
+    var keys = ['foot_movement', 'hand_movement', 'direction', 'name'];
+    var waza_tree = {
+        name: 'katatetori',
+        type: 'gyaku hanmi',
+        children: getChildren(waza, 0)
+    };
+
+    function getChildren (arr, inc) {
+        var _children = [];
+        var key = keys[inc];
+        var _set = new Set( arr.map( function (t) { return t[key]; }) );
+        var _arr = [..._set].sort();
+        if (inc < keys.length) {
+            inc++;
+            _arr.forEach( function (a) {
+                var techniques = arr.filter( function (t) { 
+                    return t[key] === a; 
+                });
+                var obj = {
+                    name: a,
+                    type: key.replace('_', ' '),
+                    children: getChildren(techniques, inc)
+                };
+                if (obj.children.length === 0) {
+                    delete obj.children;
+                }
+                _children.push(obj);
+            });
+        }
+        return _children;
+    }
+    // log(JSON.stringify(waza_tree, null, 4));
+    initTreeGraph(waza_tree);
 }
 
 // D3 stuff
@@ -47,8 +78,8 @@ var vis = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
-function initTreeGraph(json) {
-    root = JSON.parse(json);
+function initTreeGraph(data) {
+    root = data; // JSON.parse(json);
     root.x0 = h / 2;
     root.y0 = 0;
 
@@ -61,12 +92,12 @@ function initTreeGraph(json) {
 
     // Initialize the display to show a few nodes.
     root.children.forEach(toggleAll);
-    toggle(root.children[1]);
-    toggle(root.children[1].children[0]);
-    toggle(root.children[3]);
-    toggle(root.children[3].children[2]);
-    toggle(root.children[3].children[2].children[0]);
-    toggle(root.children[3].children[2].children[0].children[0]);
+    // toggle(root.children[1]);
+    // toggle(root.children[1].children[0]);
+    // toggle(root.children[3]);
+    // toggle(root.children[3].children[2]);
+    // toggle(root.children[3].children[2].children[0]);
+    // toggle(root.children[3].children[2].children[0].children[0]);
 
     update(root);
 }
