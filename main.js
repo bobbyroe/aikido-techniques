@@ -35,7 +35,7 @@ function initialize (json) {
         var _arr = [..._set].sort();
         if (inc < keys.length) {
             inc++;
-            _arr.forEach( function (a) {
+            _arr.forEach( function (a, i) {
                 var techniques = arr.filter( function (t) { 
                     return t[key] === a; 
                 });
@@ -44,6 +44,9 @@ function initialize (json) {
                     type: key.replace('_', ' '),
                     children: getChildren(techniques, inc)
                 };
+                if (key === 'name') {
+                    obj.youtube_id = arr[i].youtube_id;
+                }
                 if (obj.children.length === 0) {
                     delete obj.children;
                 }
@@ -62,7 +65,7 @@ var m = [20, 120, 20, 120];
 var w = window.innerWidth - m[1] - m[3];
 var h = window.innerHeight - m[0] - m[2];
 var i = 0;
-var root;
+var _root;
 
 var tree = d3.layout.tree()
     .size([h, w]);
@@ -79,27 +82,26 @@ var vis = d3.select("body").append("svg")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
 function initTreeGraph(data) {
-    root = data; // JSON.parse(json);
-    root.x0 = h / 2;
-    root.y0 = 0;
+    _root = data; // JSON.parse(json);
+    _root.x0 = h / 2;
+    _root.y0 = 0;
 
-    function toggleAll(d) {
+    function _toggleAll(d) {
         if (d.children) {
-            d.children.forEach(toggleAll);
+            d.children.forEach(_toggleAll);
             toggle(d);
         }
     }
-
     // Initialize the display to show a few nodes.
-    root.children.forEach(toggleAll);
-    // toggle(root.children[1]);
-    // toggle(root.children[1].children[0]);
-    // toggle(root.children[3]);
-    // toggle(root.children[3].children[2]);
-    // toggle(root.children[3].children[2].children[0]);
-    // toggle(root.children[3].children[2].children[0].children[0]);
+    _root.children.forEach(_toggleAll);
+    toggle(_root.children[1]);
+    toggle(_root.children[1].children[0]);
+    toggle(_root.children[3]);
+    toggle(_root.children[3].children[2]);
+    toggle(_root.children[3].children[2].children[0]);
+    toggle(_root.children[3].children[2].children[0].children[0]);
 
-    update(root);
+    update(_root);
 }
 
 
@@ -107,7 +109,7 @@ function update(source) {
     var duration = d3.event && d3.event.altKey ? 5000 : 500;
 
     // Compute the new tree layout.
-    var nodes = tree.nodes(root).reverse();
+    var nodes = tree.nodes(_root).reverse();
 
     // Normalize for fixed-depth.
     nodes.forEach(function(d) {
@@ -129,6 +131,26 @@ function update(source) {
         .on("click", function(d) {
             toggle(d);
             update(d);
+        })
+        .on("mouseover", function(d) {
+            if (d.type === 'name') {
+                log(d);
+                d3.select(this).select('circle')
+                    .transition().duration(250).ease('cubic-out')
+                    .attr('r', function (d) { return 20; });
+            }
+        })
+        .on("mouseout", function(d) {
+            if (d.type === 'name') {
+                d3.select(this).select('circle')
+                    .transition().duration(250).ease('cubic-out')
+                    .attr('r', function (d) { return 10; });
+            }
+        })
+        .on("dblclick", function(d) {
+            if (d.type === 'name') {
+                handleDblClick(d);
+            }
         });
 
     nodeEnter.append("circle")
@@ -259,7 +281,74 @@ function toggle(d) {
         d._children = null;
     }
 }
+function toggleAll(d) {
+    if (d.children) {
+        d.children.forEach(toggleAll);
+        toggle(d);
+        update(d);
+    }
+}
+document.body.addEventListener('keyup', onKey);
+document.body.addEventListener('keydown', function (kevt) { 
+    if (kevt.code === 'Space') {
+        kevt.preventDefault(); 
+    }
+});
+function onKey (kevt) {
+    kevt.preventDefault();
+    log(kevt.code);
+    if (kevt.code === 'Digit1') {
+        toggle(_root);
+        update(_root);
+    }
+    if (kevt.code === 'Digit2') {
+        if (_root.children) {
+            _root.children.forEach(toggle);
+            _root.children.forEach(update);
+        }
+    }
+    if (kevt.code === 'Digit3') {
+        if (_root.children) {
+            _root.children.forEach(function (d) {
+                if (d.children) {
+                    d.children.forEach(toggle);
+                }
+            });
+            _root.children.forEach(function (d) {
+                if (d.children) {
+                    d.children.forEach(update);
+                }
+            });
+        }
+    }
+    if (kevt.code === 'Digit4') {
+        if (_root.children) {
+            _root.children.forEach(function (d) {
+                if (d.children) {
+                    d.children.forEach(function (d) {
+                        if (d.children) {
+                            d.children.forEach(toggle);
+                        }
+                    });
+                }
+            });
+            _root.children.forEach(function (d) {
+                if (d.children) {
+                    d.children.forEach(function (d) {
+                        if (d.children) {
+                            d.children.forEach(update);
+                        }
+                    });
+                }
+            });
+        }
+    }
+    
+}
 
+function handleDblClick (d) {
+    window.open(`https://www.youtube.com/watch?v=${d.youtube_id}`);
+}
 //----------------------------------------------------------------------------//
 var log = console.log.bind(console);
 
