@@ -93,13 +93,13 @@ function initTreeGraph(data) {
         }
     }
     // Initialize the display to show a few nodes.
-    _root.children.forEach(_toggleAll);
-    toggle(_root.children[1]);
-    toggle(_root.children[1].children[0]);
+    // _root.children.forEach(_toggleAll);
     toggle(_root.children[3]);
-    toggle(_root.children[3].children[2]);
-    toggle(_root.children[3].children[2].children[0]);
-    toggle(_root.children[3].children[2].children[0].children[0]);
+    // toggle(_root.children[1].children[0]);
+    // toggle(_root.children[3]);
+    // toggle(_root.children[3].children[2]);
+    // toggle(_root.children[3].children[2].children[0]);
+    // toggle(_root.children[3].children[2].children[0].children[0]);
 
     update(_root);
 }
