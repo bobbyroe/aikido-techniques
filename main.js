@@ -57,6 +57,7 @@ function initialize (json) {
     }
     // log(JSON.stringify(waza_tree, null, 4));
     initTreeGraph(waza_tree);
+    loop();
 }
 
 // D3 stuff
@@ -66,6 +67,10 @@ var w = window.innerWidth - m[1] - m[3];
 var h = window.innerHeight - m[0] - m[2];
 var i = 0;
 var _root;
+
+var selected_node = null;
+var mousedown_timer = 0;
+var mousehold_limit = 80;
 
 var tree = d3.layout.tree()
     .size([h, w]);
@@ -128,9 +133,17 @@ function update(source) {
         .attr("transform", function(d) {
             return "translate(" + source.y0 + "," + source.x0 + ")";
         })
-        .on("click", function(d) {
-            toggle(d);
-            update(d);
+        // .on("click", function(d) {
+        //     toggle(d);
+        //     update(d);
+        // })
+        .on("mousedown", function(d) {
+           selected_node = d;
+        })
+        .on("mouseup", function(d) {
+            log(mousedown_timer);
+            selected_node = null;
+            mousedown_timer = 0;
         })
         .on("mouseover", function(d) {
             if (d.type === 'name') {
@@ -288,6 +301,25 @@ function toggleAll(d) {
         update(d);
     }
 }
+
+function loop () {
+    requestAnimationFrame(loop);
+    if (selected_node != null) {
+        mousedown_timer++;
+        if (mousedown_timer > mousehold_limit) {
+            openYouTubeLink(selected_node);
+            selected_node = null;
+            mousedown_timer = 0;
+        }
+        
+    }
+}
+
+function openYouTubeLink(d) {
+    window.open(`https://www.youtube.com/watch?v=${d.youtube_id}`);
+}
+//----------------------------------------------------------------------------//
+
 document.body.addEventListener('keyup', onKey);
 document.body.addEventListener('keydown', function (kevt) { 
     if (kevt.code === 'Space') {
@@ -347,7 +379,7 @@ function onKey (kevt) {
 }
 
 function handleDblClick (d) {
-    window.open(`https://www.youtube.com/watch?v=${d.youtube_id}`);
+    openYoutubeLink(d);
 }
 //----------------------------------------------------------------------------//
 var log = console.log.bind(console);
