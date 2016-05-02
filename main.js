@@ -141,7 +141,11 @@ function update(source) {
            selected_node = d;
         })
         .on("mouseup", function(d) {
-            log(mousedown_timer);
+    
+            if (mousedown_timer <= mousehold_limit) {
+                toggle(d);
+                update(d);
+            }
             selected_node = null;
             mousedown_timer = 0;
         })
@@ -311,7 +315,6 @@ function loop () {
             selected_node = null;
             mousedown_timer = 0;
         }
-        
     }
 }
 
