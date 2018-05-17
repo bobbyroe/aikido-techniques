@@ -224,7 +224,7 @@
                     "rank": "1st kyu",
                     "notes": "",
                     "translation": "",
-                    "foot_movement": "offline back step",
+                    "foot_movement": "ayumi ashi",
                     "hand_movement": "jodan kokyu",
                     "youtube_id": "Kt6ROzf02cI&t=35s"
                 },
