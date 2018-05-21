@@ -46,6 +46,7 @@ function initialize (json) {
                 };
                 if (key === 'name') {
                     obj.youtube_id = arr[i].youtube_id;
+                    obj.tid = arr[i].id;
                 }
                 if (obj.children.length === 0) {
                     delete obj.children;
@@ -99,7 +100,7 @@ function initTreeGraph(data) {
     }
     // Initialize the display to show a few nodes.
     // _root.children.forEach(_toggleAll);
-    toggle(_root.children[3]);
+    toggle(_root.children[2]);
     // toggle(_root.children[1].children[0]);
     // toggle(_root.children[3]);
     // toggle(_root.children[3].children[2]);
@@ -186,7 +187,11 @@ function update(source) {
         })
         .attr("class", "name")
         .text(function(d) {
-            return d.name;
+            var pre = "";
+            if (d.youtube_id != null) {
+                pre = d.tid + ": ";
+            }
+            return pre + d.name;
         })
         .style("fill-opacity", 1e-6);
 

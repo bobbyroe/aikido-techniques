@@ -74,7 +74,7 @@
                         "technique_type": "immobilization",
                         "direction": "omote",
                         "rank": "5th kyu",
-                        "notes": "tenzan style(?)",
+                        "notes": "",
                         "foot_movement": "offline step",
                          "hand_movement": "chudan cut",
                         "posture": "",
@@ -152,7 +152,7 @@
                         "direction": "ura",
                         "rank": "3th kyu",
                         "notes": "",
-                        "foot_movement": "none",
+                        "foot_movement": "step back",
                         "hand_movement": "jodan kokyu",
                         "posture": "",
                         "youtube_id": "aiS6LPv06Xs"
