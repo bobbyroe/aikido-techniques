@@ -20,7 +20,7 @@ function initialize (json) {
 
     // parse json + create a tree
     var data = JSON.parse(json);
-    var waza = data.aikido[0].waza;
+    var waza = data.aikido[0].waza.core;
     var keys = ['foot_movement', 'hand_movement', 'direction', 'name'];
     var waza_tree = {
         name: 'katatetori',
