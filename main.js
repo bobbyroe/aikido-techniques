@@ -323,7 +323,7 @@ function loop () {
     }
 }
 
-function openYouTubeLink(d) {
+function openYoutubeLink(d) {
     window.open(`https://www.youtube.com/watch?v=${d.youtube_id}`);
 }
 //----------------------------------------------------------------------------//
