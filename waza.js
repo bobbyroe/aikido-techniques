@@ -1,12 +1,12 @@
 {
     "aikido": [
         {
-            "name": "katatetori",
+            "name": "katatedori",
             "japanese": "片手取り",
             "waza": {
                 "core": [
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "shihonage",
                         "name_alt": "",
                         "id": 6,
@@ -15,50 +15,50 @@
                         "rank": "6th kyu",
                         "notes": "",
                         "foot_movement": "offline step",
-                        "hand_movement": "chudan grab",
+                        "hand_movement": "gedan grab",
                         "posture": "",
                         "youtube_id": "_MPwI4RmHeU&t=5m12s"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "shihonage",
                         "name_alt": "",
                         "japanese": "四方投げ",
                         "id": 6,
                         "technique_type": "projection",
-                        "direction": "tenkan",
+                        "direction": "ura",
                         "rank": "6th kyu",
-                        "notes": "",
+                        "notes": "tenkan",
                         "foot_movement": "offline step",
-                        "hand_movement": "chudan grab",
+                        "hand_movement": "gedan grab",
                         "posture": "",
                         "youtube_id": "_MPwI4RmHeU&t=7m12s"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kotegaeshi",
                         "name_alt": "",
                         "japanese": "小手返し",
                         "id": 7,
                         "technique_type": "projection",
-                        "direction": "tenkan",
+                        "direction": "ura",
                         "rank": "6th kyu",
-                        "notes": "basic",
+                        "notes": "basic – tenkan",
                         "foot_movement": "offline step",
                         "hand_movement": "gedan cut",
                         "posture": "",
                         "youtube_id": "O5ozbOKbl68"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "iriminage",
                         "name_alt": "",
                         "japanese": "入身投げ",
                         "id": 8,
                         "technique_type": "projection",
-                        "direction": "tenkan",
+                        "direction": "ura",
                         "rank": "6th kyu",
-                        "notes": "jodan",
+                        "notes": "jodan – tenkan",
                         "foot_movement": "offline step",
                         "hand_movement": "gedan cut",
                         "posture": "",
@@ -66,45 +66,44 @@
                     },
 
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "ikkyo",
-                        "name_alt": "swooping move",
+                        "name_alt": "",
                         "japanese": "一教",
                         "id": 10,
                         "technique_type": "immobilization",
-                        "direction": "omote",
+                        "direction": "omote / ura",
                         "rank": "5th kyu",
                         "notes": "",
                         "foot_movement": "offline step",
-                         "hand_movement": "chudan cut",
+                         "hand_movement": "circular, swooping move",
                         "posture": "",
                         "youtube_id": "1XlhMk5nvGU"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage to forward roll",
                         "name_alt": "",
                         "japanese": "呼吸投げ",
                         "id": 11,
                         "technique_type": "projection",
-                        "direction": "tenkan",
+                        "direction": "ura",
                         "rank": "5th kyu",
-                        "notes": "",
+                        "notes": "tenkan",
                         "foot_movement": "offline step",
                          "hand_movement": "chudan kokyu",
                         "posture": "",
                         "youtube_id": "LJzwh22prCo"
                     },
-
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kaitennage",
                         "name_alt": "",
                         "japanese": "回転投げ",
                         "id": 20,
                         "technique_type": "projection",
-                        "direction": "",
-                        "rank": "4th kyu",
+                        "direction": "uchi mawari",
+                        "rank": "3th kyu",
                         "notes": "irimi tenkan",
                         "foot_movement": "offline step",
                          "hand_movement": "gedan kokyu",
@@ -112,23 +111,52 @@
                         "youtube_id": "gqvZ4KzIESw&t=21s"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
+                        "name": "kaitennage",
+                        "name_alt": "",
+                        "japanese": "回転投げ",
+                        "id": 20,
+                        "technique_type": "projection",
+                        "direction": "soto mawari",
+                        "rank": "3th kyu",
+                        "notes": "irimi tenkan",
+                        "foot_movement": "offline step",
+                         "hand_movement": "gedan kokyu",
+                        "posture": "",
+                        "youtube_id": "gqvZ4KzIESw&t=21s"
+                    },
+                    {
+                        "attack_type": "katatedori",
                         "name": "nikyo",
                         "name_alt": "",
                         "japanese": "二教",
                         "id": 21,
                         "technique_type": "immobilization",
-                        "direction": "",
+                        "direction": "omote",
                         "rank": "4th kyu",
                         "notes": "",
                         "foot_movement": "offline step",
-                        "hand_movement": "jodan atemi",
+                        "hand_movement": "circular, swooping move",
                         "posture": "",
                         "youtube_id": "ummLn3M_Sk8&t=1m7s"
                     },
-
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
+                        "name": "nikyo",
+                        "name_alt": "",
+                        "japanese": "二教",
+                        "id": 21,
+                        "technique_type": "immobilization",
+                        "direction": "ura",
+                        "rank": "4th kyu",
+                        "notes": "",
+                        "foot_movement": "offline step",
+                        "hand_movement": "gedan kokyu",
+                        "posture": "",
+                        "youtube_id": "ummLn3M_Sk8&t=1m7s"
+                    },
+                    {
+                        "attack_type": "katatedori",
                         "name": "kokyunage - inside spiral",
                         "name_alt": "",
                         "japanese": "呼吸投げ",
@@ -143,7 +171,7 @@
                         "youtube_id": "aiS6LPv06Xs"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage - inside spiral",
                         "name_alt": "",
                         "japanese": "呼吸投げ",
@@ -158,7 +186,7 @@
                         "youtube_id": "aiS6LPv06Xs"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "koshinage",
                         "name_alt": "",
                         "japanese": "腰投げ",
@@ -173,43 +201,14 @@
                         "youtube_id": "Kt6ROzf02cI&t=3m6s"
                     },
                     {
-                        "attack_type": "katatetori",
-                        "name": "shihonage",
-                        "name_alt": "",
-                        "id": 36,
-                        "technique_type": "projection",
-                        "direction": "omote",
-                        "rank": "3th kyu",
-                        "notes": "",
-                        "foot_movement": "inside step",
-                        "hand_movement": "chudan grab",
-                        "posture": "Hanmi handachi",
-                        "youtube_id": "_MPwI4RmHeU&t=5m12s"
-                    },
-                    {
-                        "attack_type": "katatetori",
-                        "name": "shihonage",
-                        "name_alt": "",
-                        "japanese": "四方投げ",
-                        "id": 36,
-                        "technique_type": "projection",
-                        "direction": "tenkan",
-                        "rank": "3th kyu",
-                        "notes": "",
-                        "foot_movement": "offline step",
-                        "hand_movement": "chudan grab",
-                        "posture": "Hanmi handachi",
-                        "youtube_id": "_MPwI4RmHeU&t=7m12s"
-                    },
-                    {
-                        "attack_type": "katatetori",
-                        "name": "kaitennage",
+                        "attack_type": "katatedori",
+                        "name": "katagatame",
                         "name_alt": "",
                         "japanese": "回転投げ",
-                        "id": 37,
+                        "id": 102,
                         "technique_type": "projection",
                         "direction": "uchi mawari",
-                        "rank": "3th kyu",
+                        "rank": "1st kyu",
                         "notes": "irimi tenkan",
                         "foot_movement": "offline step",
                          "hand_movement": "gedan kokyu",
@@ -217,29 +216,13 @@
                         "youtube_id": "gqvZ4KzIESw&t=21s"
                     },
                     {
-                        "attack_type": "katatetori",
-                        "name": "kaitennage",
+                        "attack_type": "katatedori",
+                        "name": "katagatame",
                         "name_alt": "",
                         "japanese": "回転投げ",
-                        "id": 37,
+                        "id": 102,
                         "technique_type": "projection",
                         "direction": "soto mawari",
-                        "rank": "3th kyu",
-                        "notes": "irimi tenkan",
-                        "foot_movement": "offline step",
-                         "hand_movement": "gedan kokyu",
-                        "posture": "",
-                        "youtube_id": "gqvZ4KzIESw&t=21s"
-                    },
-
-                    {
-                        "attack_type": "katatetori",
-                        "name": "katagatame",
-                        "name_alt": "",
-                        "japanese": "回転投げ",
-                        "id": 102,
-                        "technique_type": "projection",
-                        "direction": "omote",
                         "rank": "1st kyu",
                         "notes": "irimi tenkan",
                         "foot_movement": "offline step",
@@ -248,67 +231,52 @@
                         "youtube_id": "gqvZ4KzIESw&t=21s"
                     },
                     {
-                        "attack_type": "katatetori",
-                        "name": "katagatame",
-                        "name_alt": "",
-                        "japanese": "回転投げ",
-                        "id": 102,
-                        "technique_type": "projection",
-                        "direction": "ura",
-                        "rank": "1st kyu",
-                        "notes": "irimi tenkan",
-                        "foot_movement": "offline step",
-                         "hand_movement": "gedan kokyu",
-                        "posture": "",
-                        "youtube_id": "gqvZ4KzIESw&t=21s"
-                    },
-                    {
-                        "attack_type": "katatetori",
-                        "name": "shihonage – ki no nagare",
+                        "attack_type": "katatedori",
+                        "name": "shihonage – ki no nagare – Jo",
                         "name_alt": "",
                         "japanese": "?落し",
                         "id": 103,
                         "technique_type": "projection",
                         "direction": "",
                         "rank": "1st kyu",
-                        "notes": "step back and cut at uke's elbow",
+                        "notes": "Jodan Kazushi",
                         "foot_movement": "tenshin",
-                        "hand_movement": "jodan cut",
+                        "hand_movement": "jodan grab",
                         "posture": "",
                         "youtube_id": ""
                     },
                     {
-                        "attack_type": "katatetori",
-                        "name": "shihonage – ki no nagare",
+                        "attack_type": "katatedori",
+                        "name": "shihonage – ki no nagare – chu",
                         "name_alt": "",
                         "japanese": "?落し",
                         "id": 103,
                         "technique_type": "projection",
                         "direction": "",
                         "rank": "1st kyu",
-                        "notes": "step back and cut at uke's elbow",
+                        "notes": "chu kazushi",
                         "foot_movement": "tenshin",
                         "hand_movement": "chudan grab",
                         "posture": "",
                         "youtube_id": ""
                     },
                     {
-                        "attack_type": "katatetori",
-                        "name": "shihonage – ki no nagare",
+                        "attack_type": "katatedori",
+                        "name": "shihonage – ki no nagare - ge",
                         "name_alt": "",
                         "japanese": "?落し",
                         "id": 103,
                         "technique_type": "projection",
                         "direction": "",
                         "rank": "1st kyu",
-                        "notes": "step back and cut at uke's elbow",
+                        "notes": "ge kazushi",
                         "foot_movement": "tenshin",
                         "hand_movement": "gedan grab",
                         "posture": "",
                         "youtube_id": ""
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "nikyo – ki no nagare",
                         "name_alt": "",
                         "japanese": "二教",
@@ -317,15 +285,15 @@
                         "direction": "",
                         "rank": "1st kyu",
                         "notes": "",
-                        "foot_movement": "offline step",
-                         "hand_movement": "chudan grab",
+                        "foot_movement": "tenshin",
+                         "hand_movement": "gedan grab",
                         "posture": "",
                         "youtube_id": "-xj11RYo7Vg"
                     }
                 ],
                 "kokyunage": [
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage",
                         "name_alt": "",
                         "japanese": "呼吸投げ",
@@ -340,7 +308,7 @@
                         "youtube_id": "Kt6ROzf02cI&t=45s"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage",
                         "name_alt": "",
                         "japanese": "呼吸投げ",
@@ -355,7 +323,7 @@
                         "youtube_id": ""
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage",
                         "name_alt": "draping move",
                         "japanese": "呼吸投げ",
@@ -370,7 +338,7 @@
                         "youtube_id": "Kt6ROzf02cI&t=35s"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage",
                         "name_alt": "",
                         "japanese": "呼吸投げ",
@@ -385,7 +353,7 @@
                         "youtube_id": ""
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage",
                         "name_alt": "kazaguruma",
                         "japanese": "呼吸投げ",
@@ -402,7 +370,7 @@
                 ],
                 "variations": [
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage – aikiotoshi",
                         "name_alt": "",
                         "japanese": "?落し",
@@ -412,12 +380,12 @@
                         "rank": "1st kyu",
                         "notes": "",
                         "foot_movement": "offline step",
-                        "hand_movement": "chudan grab",
+                        "hand_movement": "gedan grab",
                         "posture": "",
                         "youtube_id": "uEEV-ZzoWgo&t=1m43s"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage – hijinage",
                         "name_alt": "arm bar",
                         "japanese": "?",
@@ -432,7 +400,7 @@
                         "youtube_id": "mjbZDCkIZeU&t=2m32s"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "iriminage",
                         "name_alt": "",
                         "japanese": "?落し",
@@ -447,7 +415,7 @@
                         "youtube_id": ""
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "sankyo",
                         "name_alt": "Nishio's Choke",
                         "japanese": "一教",
@@ -462,7 +430,7 @@
                         "youtube_id": ""
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "reverse kotegaeshi",
                         "name_alt": "",
                         "japanese": "小手返し",
@@ -477,7 +445,7 @@
                         "youtube_id": "Gw6hSmZ9WHY&t=8s"
                     },
                     {
-                        "attack_type": "katatetori – ki no nagare",
+                        "attack_type": "katatedori – ki no nagare",
                         "name": "kokyunage – makiotoshi",
                         "name_alt": "",
                         "japanese": "?落し",
@@ -492,7 +460,7 @@
                         "youtube_id": "VtjNiohlH5Q"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "sumiotoshi",
                         "name_alt": "",
                         "japanese": "角落し",
@@ -508,7 +476,7 @@
                     },
 
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "sumiotoshi",
                         "name_alt": "",
                         "japanese": "角落し",
@@ -523,7 +491,7 @@
                         "youtube_id": "m9qyncOTzRg"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage",
                         "name_alt": "sumiotoshi-like",
                         "japanese": "呼吸投げ",
@@ -538,7 +506,7 @@
                         "youtube_id": "KyRnlnk4dU4"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "ikkyo",
                         "name_alt": "",
                         "japanese": "一教",
@@ -553,7 +521,7 @@
                         "youtube_id": "Kt6ROzf02cI&t=1m"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "nikyo",
                         "name_alt": "",
                         "japanese": "",
@@ -568,7 +536,7 @@
                         "youtube_id": "Kt6ROzf02cI&t=1m17s"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "sankyo",
                         "name_alt": "",
                         "japanese": "三教",
@@ -585,7 +553,7 @@
                 ],
                 "other": [
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name_alt": "kokyunage",
                         "name": "udekimenage",
                         "japanese": "呼吸投げ",
@@ -595,12 +563,12 @@
                         "rank": "4th kyu",
                         "notes": "Tenzan name: jujinage",
                         "foot_movement": "offline step",
-                         "hand_movement": "chudan grab",
+                         "hand_movement": "gedan grab",
                         "posture": "",
                         "youtube_id": "X5mL7Fy3i6w&t=52s"
                     },
                     {
-                        "attack_type": "katatetori",
+                        "attack_type": "katatedori",
                         "name": "kokyunage - ushiro ate",
                         "name_alt": "",
                         "japanese": "?",
@@ -614,6 +582,37 @@
                         "posture": "",
                         "hand_movement": "gedan cut",
                         "youtube_id": ""
+                    }
+                ],
+                "hanmi_handachi": [
+                    {
+                        "attack_type": "katatedori",
+                        "name": "shihonage",
+                        "name_alt": "",
+                        "id": 36,
+                        "technique_type": "projection",
+                        "direction": "omote",
+                        "rank": "3th kyu",
+                        "notes": "",
+                        "foot_movement": "inside step",
+                        "hand_movement": "gedan grab",
+                        "posture": "Hanmi handachi",
+                        "youtube_id": "_MPwI4RmHeU&t=5m12s"
+                    },
+                    {
+                        "attack_type": "katatedori",
+                        "name": "shihonage",
+                        "name_alt": "",
+                        "japanese": "四方投げ",
+                        "id": 36,
+                        "technique_type": "projection",
+                        "direction": "ura",
+                        "rank": "3th kyu",
+                        "notes": "tenkan",
+                        "foot_movement": "offline step",
+                        "hand_movement": "gedan grab",
+                        "posture": "Hanmi handachi",
+                        "youtube_id": "_MPwI4RmHeU&t=7m12s"
                     }
                 ]
             }

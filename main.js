@@ -56,7 +56,7 @@ function initialize (json) {
         }
         return _children;
     }
-    // log(JSON.stringify(waza_tree, null, 4));
+    log(JSON.stringify(waza_tree, null, 4));
     initTreeGraph(waza_tree);
     loop();
 }
@@ -100,7 +100,11 @@ function initTreeGraph(data) {
     }
     // Initialize the display to show a few nodes.
     // _root.children.forEach(_toggleAll);
-    toggle(_root.children[2]);
+    // toggle(_root.children[0]);
+    // toggle(_root.children[1]);
+    // toggle(_root.children[2]);
+    // toggle(_root.children[3]);
+    // toggle(_root.children[4]);
     // toggle(_root.children[1].children[0]);
     // toggle(_root.children[3]);
     // toggle(_root.children[3].children[2]);
