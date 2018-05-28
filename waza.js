@@ -45,7 +45,7 @@
                         "rank": "6th kyu",
                         "notes": "basic – tenkan",
                         "foot_movement": "offline step",
-                        "hand_movement": "gedan cut",
+                        "hand_movement": "cut across",
                         "posture": "",
                         "youtube_id": "O5ozbOKbl68"
                     },
@@ -60,7 +60,7 @@
                         "rank": "6th kyu",
                         "notes": "jodan – tenkan",
                         "foot_movement": "offline step",
-                        "hand_movement": "gedan cut",
+                        "hand_movement": "cut across",
                         "posture": "",
                         "youtube_id": "Kt6ROzf02cI&t=5s"
                     },
@@ -91,7 +91,7 @@
                         "rank": "5th kyu",
                         "notes": "tenkan",
                         "foot_movement": "offline step",
-                         "hand_movement": "chudan kokyu",
+                         "hand_movement": "reach down",
                         "posture": "",
                         "youtube_id": "LJzwh22prCo"
                     },
@@ -106,7 +106,7 @@
                         "rank": "3th kyu",
                         "notes": "irimi tenkan",
                         "foot_movement": "offline step",
-                         "hand_movement": "gedan kokyu",
+                         "hand_movement": "open the door",
                         "posture": "",
                         "youtube_id": "gqvZ4KzIESw&t=21s"
                     },
@@ -121,7 +121,7 @@
                         "rank": "3th kyu",
                         "notes": "irimi tenkan",
                         "foot_movement": "offline step",
-                         "hand_movement": "gedan kokyu",
+                         "hand_movement": "open the door",
                         "posture": "",
                         "youtube_id": "gqvZ4KzIESw&t=21s"
                     },
@@ -132,26 +132,11 @@
                         "japanese": "二教",
                         "id": 21,
                         "technique_type": "immobilization",
-                        "direction": "omote",
+                        "direction": "omote / ura",
                         "rank": "4th kyu",
                         "notes": "",
                         "foot_movement": "offline step",
                         "hand_movement": "circular, swooping move",
-                        "posture": "",
-                        "youtube_id": "ummLn3M_Sk8&t=1m7s"
-                    },
-                    {
-                        "attack_type": "katatedori",
-                        "name": "nikyo",
-                        "name_alt": "",
-                        "japanese": "二教",
-                        "id": 21,
-                        "technique_type": "immobilization",
-                        "direction": "ura",
-                        "rank": "4th kyu",
-                        "notes": "",
-                        "foot_movement": "offline step",
-                        "hand_movement": "gedan kokyu",
                         "posture": "",
                         "youtube_id": "ummLn3M_Sk8&t=1m7s"
                     },
@@ -166,7 +151,7 @@
                         "rank": "3th kyu",
                         "notes": "",
                         "foot_movement": "none",
-                        "hand_movement": "jodan kokyu",
+                        "hand_movement": "spiral up",
                         "posture": "",
                         "youtube_id": "aiS6LPv06Xs"
                     },
@@ -181,7 +166,7 @@
                         "rank": "3th kyu",
                         "notes": "",
                         "foot_movement": "step back",
-                        "hand_movement": "jodan kokyu",
+                        "hand_movement": "spiral up",
                         "posture": "",
                         "youtube_id": "aiS6LPv06Xs"
                     },
@@ -196,7 +181,7 @@
                         "rank": "3rd kyu",
                         "notes": "atemi as you step inside and turn, making a chair of your lower back to lower uke over",
                         "foot_movement": "inside step",
-                         "hand_movement": "jodan kokyu",
+                         "hand_movement": "reach up",
                         "posture": "",
                         "youtube_id": "Kt6ROzf02cI&t=3m6s"
                     },
@@ -211,7 +196,7 @@
                         "rank": "1st kyu",
                         "notes": "irimi tenkan",
                         "foot_movement": "offline step",
-                         "hand_movement": "gedan kokyu",
+                         "hand_movement": "open the door",
                         "posture": "",
                         "youtube_id": "gqvZ4KzIESw&t=21s"
                     },
@@ -226,7 +211,7 @@
                         "rank": "1st kyu",
                         "notes": "irimi tenkan",
                         "foot_movement": "offline step",
-                         "hand_movement": "gedan kokyu",
+                         "hand_movement": "open the door",
                         "posture": "",
                         "youtube_id": "gqvZ4KzIESw&t=21s"
                     },
