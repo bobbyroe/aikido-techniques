@@ -221,9 +221,9 @@ function update(source) {
             return (d.name != null) ? 10 : 2;
         })
         .style("fill", function(d) {
-            let cols = ["#EEE", "#FF0", "#F90","#0F0","#00F","#90F","#853", "#222"];
+            let cols = ["#EEE", "#FF0", "#F90","#0F0","#00F","#90F","#853", "#000"];
             let num = cols.length - 1;
-            if (d.rank != null) { num = num - ~~d.rank.substring(0,1); }
+            if (d.rank != null) { num = d.rank.includes('dan') ? num : num - ~~d.rank.substring(0,1); }
             let col = cols[num];
             return d.children != null ? "lightsteelblue" : col;
         });

@@ -142,6 +142,21 @@
                     },
                     {
                         "attack_type": "katatedori",
+                        "name": "sankyo",
+                        "name_alt": "",
+                        "japanese": "三教",
+                        "id": 128,
+                        "technique_type": "projection",
+                        "direction": "omote / ura",
+                        "rank": "1st dan",
+                        "notes": "Yamada style",
+                        "foot_movement": "offline step",
+                         "hand_movement": "circular, swooping move",
+                        "posture": "",
+                        "youtube_id": "Kt6ROzf02cI"
+                    },
+                    {
+                        "attack_type": "katatedori",
                         "name": "kokyunage - inside spiral",
                         "name_alt": "",
                         "japanese": "呼吸投げ",
@@ -223,7 +238,7 @@
                         "id": 101,
                         "technique_type": "projection",
                         "direction": "ura",
-                        "rank": "*",
+                        "rank": "1st kyu",
                         "notes": "Yamada style - bring uke around as you drop, then extend past uke's head",
                         "foot_movement": "offline step",
                          "hand_movement": "reach down",
@@ -334,21 +349,6 @@
                         "hand_movement": "draping",
                         "posture": "",
                         "youtube_id": "Kt6ROzf02cI&t=35s"
-                    },
-                    {
-                        "attack_type": "katatedori",
-                        "name": "kokyunage – double cut",
-                        "name_alt": "kazaguruma",
-                        "japanese": "呼吸投げ",
-                        "id": 138,
-                        "technique_type": "projection",
-                        "direction": "",
-                        "rank": "1st kyu",
-                        "notes": "double cut",
-                        "foot_movement": "offline step",
-                         "hand_movement": "cut across",
-                        "posture": "",
-                        "youtube_id": "Kt6ROzf02cI"
                     },
                     {
                         "attack_type": "katatedori",
@@ -549,21 +549,6 @@
                          "hand_movement": "chudan kokyu",
                         "posture": "",
                         "youtube_id": "Kt6ROzf02cI&t=1m17s"
-                    },
-                    {
-                        "attack_type": "katatedori",
-                        "name": "sankyo",
-                        "name_alt": "",
-                        "japanese": "三教",
-                        "id": 28,
-                        "technique_type": "projection",
-                        "direction": "tenkan",
-                        "rank": "1st kyu",
-                        "notes": "Yamada style",
-                        "foot_movement": "offline step",
-                         "hand_movement": "chudan kokyu",
-                        "posture": "",
-                        "youtube_id": "Kt6ROzf02cI"
                     }
                 ],
                 "other": [
