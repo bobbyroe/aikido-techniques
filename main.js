@@ -47,6 +47,7 @@ function initialize (json) {
                 if (key === 'name') {
                     obj.youtube_id = arr[i].youtube_id;
                     obj.tid = arr[i].id;
+                    obj.rank = arr[i].rank;
                 }
                 if (obj.children.length === 0) {
                     delete obj.children;
@@ -56,7 +57,7 @@ function initialize (json) {
         }
         return _children;
     }
-    log(JSON.stringify(waza_tree, null, 4));
+    // log(JSON.stringify(waza_tree, null, 4));
     initTreeGraph(waza_tree);
     loop();
 }
@@ -156,7 +157,6 @@ function update(source) {
         })
         .on("mouseover", function(d) {
             if (d.type === 'name') {
-                log(d);
                 d3.select(this).select('circle')
                     .transition().duration(250).ease('cubic-out')
                     .attr('r', function (d) { return 20; });
@@ -178,7 +178,7 @@ function update(source) {
     nodeEnter.append("circle")
         .attr("r", 1e-6)
         .style("fill", function(d) {
-            return d._children ? "lightsteelblue" : "#fff";
+            return "#0";
         });
 
     nodeEnter.append("text")
@@ -221,7 +221,11 @@ function update(source) {
             return (d.name != null) ? 10 : 2;
         })
         .style("fill", function(d) {
-            return d._children ? "lightsteelblue" : "#fff";
+            let cols = ["#EEE", "#FF0", "#F90","#0F0","#00F","#90F","#853", "#222"];
+            let num = cols.length - 1;
+            if (d.rank != null) { num = num - ~~d.rank.substring(0,1); }
+            let col = cols[num];
+            return d.children != null ? "lightsteelblue" : col;
         });
 
     nodeUpdate.select(".name")
