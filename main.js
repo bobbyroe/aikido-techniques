@@ -195,6 +195,7 @@ function update(source) {
             if (d.youtube_id != null) {
                 pre = d.tid + ": ";
             }
+            // console.log(pre + d.name, "\n", d);
             return pre + d.name;
         })
         .style("fill-opacity", 1e-6);
