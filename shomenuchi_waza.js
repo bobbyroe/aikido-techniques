@@ -1,9 +1,7 @@
 {
-    "aikido": [
+    "shomenuchi": [
         {
-            "name": "shomenuchi",
-            "japanese": "正面打ち",
-            "waza": [
+            "core": [
                 {
                     "attack_type": "shomenuchi",
                     "name": "ikkyo",
@@ -256,36 +254,8 @@
                     "posture": "",
                     "youtube_id": ""
                 }
-            ]
-        },
-
-        {
-            "name": "yokomenuchi",
-            "japanese": "横面打ち",
-            "waza": [
-                
-            ]
-        },
-        {
-            "name": "morotetori",
-            "japanese": "",
-            "waza": [
-                
-            ]
-        },
-        {
-            "name": "tsuki",
-            "japanese": "",
-            "waza": [
-                
-            ]
-        },
-        {
-            "name": "ryotetori",
-            "japanese": "",
-            "waza": [
-                
-            ]
+            ],
+            "other": []
         }
     ]
 }

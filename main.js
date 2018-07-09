@@ -1,4 +1,5 @@
-
+var qs = new URLSearchParams(window.location.search);
+var ATTACK_TYPE = qs.get("attack") != null ? qs.get("attack") : "katatedori";
 function getSourceData() {
     var request = new XMLHttpRequest();
     function dataLoaded(evt) {
@@ -10,7 +11,7 @@ function getSourceData() {
     }
     request.addEventListener("load", dataLoaded, false);
     request.addEventListener("error", transferFailed, false);
-    request.open('GET', 'waza.js');
+    request.open('GET', ATTACK_TYPE + '_waza.js');
     request.send(null);
 }
 
@@ -20,10 +21,10 @@ function initialize (json) {
 
     // parse json + create a tree
     var data = JSON.parse(json);
-    var waza = data.aikido[0].waza.core;
+    var waza = data[ATTACK_TYPE][0].core;
     var keys = ['foot_movement', 'hand_movement', 'direction', 'name'];
     var waza_tree = {
-        name: 'katatetori',
+        name: ATTACK_TYPE,
         type: 'gyaku hanmi',
         children: getChildren(waza, 0)
     };
