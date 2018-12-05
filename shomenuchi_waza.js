@@ -249,7 +249,7 @@
                     "direction": "irimi",
                     "rank": "2nd kyu",
                     "notes": "",
-                    "foot_movement": "inside step",
+                    "foot_movement": "ayumi ashi",
                     "hand_movement": "meet the attack",
                     "posture": "",
                     "youtube_id": ""
