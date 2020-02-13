@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-	body {
-		background-color: #202020;
-		color: #E0E0E0;
-	}
-	.node circle {
-		cursor: pointer;
-		fill: #fff;
-		/*stroke: steelblue;
-		stroke-width: 3px;*/
-	}
+<html lang="en">
+  <head>
+    <title>Aikido Techniques Tree</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: #202020;
+        color: #e0e0e0;
+      }
+      .node circle {
+        cursor: pointer;
+        fill: #fff;
+      }
 
-	.node .name, .node .type {
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-		font-size: 18px;
-		fill: #E0E0E0;
-	}
-	.node .type {
-		font-size: 16px;
-		fill: #999;
-	}
+      .node .name,
+      .node .type {
+        font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica,
+          Arial, 'Lucida Grande', sans-serif;
+        font-size: 18px;
+        fill: #e0e0e0;
+      }
+      .node .type {
+        font-size: 16px;
+        fill: #999;
+      }
 
-	path.link {
-		fill: none;
-		stroke: #ccc;
-		stroke-width: 1.5px;
-	}
-</style>
-<body>
-	<script src="libs/d3.v3.min.js"></script>
-	<script src="libs/d3.layout.js"></script>
-	<script src="main.js"></script>
-</body> 
+      path.link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="libs/d3.v3.min.js"></script>
+    <script src="libs/d3.layout.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
